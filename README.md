@@ -77,18 +77,15 @@ Each project folder contains:
 
 ---
 
-### 03. Pressure Cylinder
+### 03. Pressure Cylinder Cover
 
 <p align="center">
-  <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Pressure Cylinder Iso.png"
-       alt="Isometric view of pressure cylinder stress"
-       width="40%">
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Total_Deformation.png"
        alt="Total deformation of pressure cylinder"
-       width="40%">
+       width="50%">
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Equivalent_Stress_(von-Mises).png"
        alt="von Mises stress in pressure cylinder"
-       width="40%">
+       width="50%">
 </p>
 
 <p align="center">
