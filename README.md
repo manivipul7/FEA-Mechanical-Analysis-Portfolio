@@ -49,9 +49,9 @@ Each project folder contains:
   - `High-Speed_Impact/`
   - `Drop_Test/`
 
-### 01_Static_Structural_Projects
+### 01 Static Structural Projects
 
-### A.1 Pneumatic Fingers
+### 1A Pneumatic Fingers
 
 <p align="center">
   <img src="01_Static_Structural_Projects/01_Pneumatic_Fingers/Directional_Deformation.png"
@@ -65,7 +65,7 @@ Each project folder contains:
 
 ---
 
-### A.2 Spur Gear
+### 1B Spur Gear
 
 <p align="center">
   <img src="01_Static_Structural_Projects/02_Spur Gear/Equivalent_Stress_(von-Mises).png"
@@ -79,7 +79,7 @@ Each project folder contains:
 
 ---
 
-### A.3 Pressure Cylinder Cover
+### 1C Pressure Cylinder Cover
 
 <p align="center">
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Total_Deformation.png"
@@ -103,7 +103,7 @@ Each project folder contains:
 
 ---
 
-### A.4 Lifting Fork
+### 1D Lifting Fork
 
 <p align="center">
    <img src="01_Static_Structural_Projects/04_Lifting_Fork/Directional_Deformation_Earth_Gravity.png"
