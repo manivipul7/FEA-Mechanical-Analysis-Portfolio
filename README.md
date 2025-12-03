@@ -54,7 +54,7 @@ Each project folder contains:
 <p align="center">
   <img src="01_Static_Structural_Projects/01_Pneumatic_Fingers/Directional_Deformation.png"
        alt="Directional deformation of pneumatic fingers under pressure"
-       width="60%">
+       width="80%">
 </p>
 
 <p align="center">
@@ -68,7 +68,7 @@ Each project folder contains:
 <p align="center">
   <img src="01_Static_Structural_Projects/02_Spur Gear/Equivalent_Stress_(von-Mises).png"
        alt="Equivalent von Mises stress in a spur gear"
-       width="60%">
+       width="80%">
 </p>
 
 <p align="center">
@@ -82,19 +82,19 @@ Each project folder contains:
 <p align="center">
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Pressure Cylinder Iso.png"
        alt="Isometric view of pressure cylinder stress"
-       width="32%">
+       width="33%">
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Total_Deformation.png"
        alt="Total deformation of pressure cylinder"
-       width="32%">
+       width="40%">
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Equivalent_Stress_(von-Mises).png"
        alt="von Mises stress in pressure cylinder"
-       width="32%">
+       width="40%">
 </p>
 
 <p align="center">
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Circularity_check.png"
        alt="Circularity check at critical section of pressure cylinder"
-       width="40%">
+       width="60%">
 </p>
 
 <p align="center">
@@ -108,13 +108,13 @@ Each project folder contains:
 <p align="center">
   <img src="01_Static_Structural_Projects/04_Lifting_Fork/Maximum_Principal_Stress.png"
        alt="Maximum principal stress in lifting fork"
-       width="32%">
+       width="40%">
   <img src="01_Static_Structural_Projects/04_Lifting_Fork/Directional_Deformation_Earth_Gravity.png"
        alt="Directional deformation of lifting fork under gravity"
-       width="32%">
+       width="40%">
   <img src="01_Static_Structural_Projects/04_Lifting_Fork/Directional_Deformation_Transient_.png"
        alt="Transient directional deformation of lifting fork"
-       width="32%">
+       width="40%">
 </p>
 
 <p align="center">
