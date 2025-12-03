@@ -122,6 +122,77 @@ Each project folder contains:
 </p>
 
 
+### 02 Modal and Vibrational Analysis
+
+### 2A Gearbox – Mode Shapes
+
+<p align="center">
+  <img src="02_Modal_and_Vibrational_Analysis/01_Gearbox/Mode_1.gif"
+       alt="Gearbox mode shape 1"
+       width="50%">
+  <img src="02_Modal_and_Vibrational_Analysis/01_Gearbox/Mode_2.gif"
+       alt="Gearbox mode shape 2"
+       width="50%">
+</p>
+
+<p align="center">
+  <img src="02_Modal_and_Vibrational_Analysis/01_Gearbox/Mode_3.gif"
+       alt="Gearbox mode shape 3"
+       width="50%">
+  <img src="02_Modal_and_Vibrational_Analysis/01_Gearbox/Mode_4.gif"
+       alt="Gearbox mode shape 4"
+       width="50%">
+</p>
+
+<p align="center">
+  <img src="02_Modal_and_Vibrational_Analysis/01_Gearbox/Mode_5.gif"
+       alt="Gearbox mode shape 5"
+       width="50%">
+  <img src="02_Modal_and_Vibrational_Analysis/01_Gearbox/Mode_6.gif"
+       alt="Gearbox mode shape 6"
+       width="50%">
+</p>
+
+<p align="center">
+  <em>First six mode shapes of the gearbox housing, highlighting global bending and local dynamics.</em>
+</p>
+
+---
+
+### 2B Two-Story Building – Mode Shapes
+
+<p align="center">
+  <img src="02_Modal_and_Vibrational_Analysis/02_Two-Story_Building/Mode_1.gif"
+       alt="Two-story building mode shape 1"
+       width="50%">
+  <img src="02_Modal_and_Vibrational_Analysis/02_Two-Story_Building/Mode_2.gif"
+       alt="Two-story building mode shape 2"
+       width="50%">
+</p>
+
+<p align="center">
+  <img src="02_Modal_and_Vibrational_Analysis/02_Two-Story_Building/Mode_3.gif"
+       alt="Two-story building mode shape 3"
+       width="50%">
+  <img src="02_Modal_and_Vibrational_Analysis/02_Two-Story_Building/Mode_4.gif"
+       alt="Two-story building mode shape 4"
+       width="50%">
+</p>
+
+<p align="center">
+  <img src="02_Modal_and_Vibrational_Analysis/02_Two-Story_Building/Mode_5.gif"
+       alt="Two-story building mode shape 5"
+       width="50%">
+  <img src="02_Modal_and_Vibrational_Analysis/02_Two-Story_Building/Mode_6.gif"
+       alt="Two-story building mode shape 6"
+       width="50%">
+</p>
+
+<p align="center">
+  <em>First six mode shapes of a two-story building model, illustrating floor sway, torsion, and higher-order modes.</em>
+</p>
+
+
 
 Each leaf folder contains:
 
