@@ -82,16 +82,17 @@ Each project folder contains:
 <p align="center">
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Total_Deformation.png"
        alt="Total deformation of pressure cylinder"
-       width="50%">
+       width="70%">
+  
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Equivalent_Stress_(von-Mises).png"
        alt="von Mises stress in pressure cylinder"
-       width="50%">
+       width="70%">
 </p>
 
 <p align="center">
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Circularity_check.png"
        alt="Circularity check at critical section of pressure cylinder"
-       width="60%">
+       width="70%">
 </p>
 
 <p align="center">
