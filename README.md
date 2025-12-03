@@ -72,7 +72,7 @@ Each project folder contains:
 </p>
 
 <p align="center">
-  <em>Equivalent von Mises stress distribution in a loaded spur gear tooth.</em>
+  <em>Equivalent (von-Mises) stress distribution in a loaded spur gear tooth.</em>
 </p>
 
 ---
