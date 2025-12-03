@@ -2,8 +2,6 @@
 
 This repository is a curated collection of finite element analysis (FEA) projects implemented in ANSYS Workbench, inspired by the structure of “Finite Element Simulations with ANSYS Workbench 2021” by Huei‑Huang Lee, and extended with additional engineering insight, hand calculations, and verification studies. All descriptions, commentary, and post-processing are written in my own words and are intended purely as a demonstration of my FEA skills and understanding.
 
-I respect intellectual property and copyright. No copyrighted text, figures, or files from the book are included here; only my own models, notes, and results built while studying FEA.
-
 ---
 
 ## 1. Overview
