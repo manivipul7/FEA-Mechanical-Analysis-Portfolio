@@ -108,13 +108,13 @@ Each project folder contains:
 <p align="center">
   <img src="01_Static_Structural_Projects/04_Lifting_Fork/Maximum_Principal_Stress.png"
        alt="Maximum principal stress in lifting fork"
-       width="40%">
+       width="32%">
   <img src="01_Static_Structural_Projects/04_Lifting_Fork/Directional_Deformation_Earth_Gravity.png"
        alt="Directional deformation of lifting fork under gravity"
-       width="40%">
+       width="32%">
   <img src="01_Static_Structural_Projects/04_Lifting_Fork/Directional_Deformation_Transient_.png"
        alt="Transient directional deformation of lifting fork"
-       width="40%">
+       width="32%">
 </p>
 
 <p align="center">
