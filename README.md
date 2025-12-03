@@ -49,32 +49,76 @@ Each project folder contains:
   - `High-Speed_Impact/`
   - `Drop_Test/`
 
-### Static Structural Highlights
+### 01. Pneumatic Fingers
 
 <p align="center">
-  <em>Selected results from static structural simulations.</em>
+  <img src="01_Static_Structural_Projects/01_Pneumatic_Fingers/Directional_Deformation.png"
+       alt="Directional deformation of pneumatic fingers under pressure"
+       width="60%">
 </p>
 
-| Pneumatic Fingers | Spur Gear | Pressure Cylinder | Lifting Fork |
-|-------------------|-----------|-------------------|--------------|
-| <img src="01_Static_Structural_Projects/01_Pneumatic_Fingers/Directional_Deformation.png" alt="Pneumatic fingers directional deformation" width="180"> | <img src="01_Static_Structural_Projects/02_Spur Gear/Equivalent_Stress_(von-Mises).png" alt="Spur gear von Mises stress" width="180"> | <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Equivalent_Stress_(von-Mises).png" alt="Pressure cylinder von Mises stress" width="180"> | <img src="01_Static_Structural_Projects/04_Lifting_Fork/Maximum_Principal_Stress.png" alt="Lifting fork maximum principal stress" width="180"> |
+<p align="center">
+  <em>Directional deformation of pneumatically actuated fingers in a static structural analysis.</em>
+</p>
+
+---
+
+### 02. Spur Gear
 
 <p align="center">
-  <sub>
-    Left to right: directional deformation of pneumatic fingers, gear tooth stress, pressure cylinder stress field, and maximum principal stress in a lifting fork.
-  </sub>
+  <img src="01_Static_Structural_Projects/02_Spur Gear/Equivalent_Stress_(von-Mises).png"
+       alt="Equivalent von Mises stress in a spur gear"
+       width="60%">
+</p>
+
+<p align="center">
+  <em>Equivalent von Mises stress distribution in a loaded spur gear tooth.</em>
+</p>
+
+---
+
+### 03. Pressure Cylinder
+
+<p align="center">
+  <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Pressure Cylinder Iso.png"
+       alt="Isometric view of pressure cylinder stress"
+       width="32%">
+  <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Total_Deformation.png"
+       alt="Total deformation of pressure cylinder"
+       width="32%">
+  <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Equivalent_Stress_(von-Mises).png"
+       alt="von Mises stress in pressure cylinder"
+       width="32%">
 </p>
 
 <p align="center">
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Circularity_check.png"
-       alt="Pressure cylinder circularity check"
-       width="30%">
+       alt="Circularity check at critical section of pressure cylinder"
+       width="40%">
+</p>
+
+<p align="center">
+  <em>Pressure vessel study: stress, deformation, and circularity check at the critical cross‑section.</em>
+</p>
+
+---
+
+### 04. Lifting Fork
+
+<p align="center">
+  <img src="01_Static_Structural_Projects/04_Lifting_Fork/Maximum_Principal_Stress.png"
+       alt="Maximum principal stress in lifting fork"
+       width="32%">
   <img src="01_Static_Structural_Projects/04_Lifting_Fork/Directional_Deformation_Earth_Gravity.png"
-       alt="Lifting fork deformation under gravity"
-       width="30%">
+       alt="Directional deformation of lifting fork under gravity"
+       width="32%">
   <img src="01_Static_Structural_Projects/04_Lifting_Fork/Directional_Deformation_Transient_.png"
-       alt="Lifting fork transient deformation"
-       width="30%">
+       alt="Transient directional deformation of lifting fork"
+       width="32%">
+</p>
+
+<p align="center">
+  <em>Lifting fork under static and transient loading: principal stresses and directional deformations.</em>
 </p>
 
 
