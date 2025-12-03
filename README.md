@@ -54,7 +54,7 @@ Each project folder contains:
 <p align="center">
   <img src="01_Static_Structural_Projects/01_Pneumatic_Fingers/Directional_Deformation.png"
        alt="Directional deformation of pneumatic fingers under pressure"
-       width="60%">
+       width="90%">
 </p>
 
 <p align="center">
@@ -83,11 +83,11 @@ Each project folder contains:
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Total_Deformation.png"
        alt="Total deformation of pressure cylinder"
        width="70%">
-  
+
+<p align="center">
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Equivalent_Stress_(von-Mises).png"
        alt="von Mises stress in pressure cylinder"
        width="70%">
-</p>
 
 <p align="center">
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Circularity_check.png"
