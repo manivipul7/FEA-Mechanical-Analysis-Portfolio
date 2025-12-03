@@ -1,0 +1,715 @@
+ ANSYS
+      License feature : Explicit - Basic
+      License type    : Academic Student
+
+
+
+       AAAAAA   UU    UU  TTTTTTTT   OOOOOO   DDDDDDD   YY    YY  NN    NN  TM
+      AA    AA  UU    UU     TT     OO    OO  DD    DD   YY  YY   NNN   NN
+      AA    AA  UU    UU     TT     OO    OO  DD    DD    YYYY    NNNN  NN
+      AAAAAAAA  UU    UU     TT     OO    OO  DD    DD     YY     NN NN NN
+      AA    AA  UU    UU     TT     OO    OO  DD    DD     YY     NN  NNNN
+      AA    AA  UU    UU     TT     OO    OO  DD    DD     YY     NN   NNN
+      AA    AA   UUUUUU      TT      OOOOOO   DDDDDDD      YY     NN    NN
+
+
+
+
+           Copyright (C) 2020, ANSYS, Inc.  All rights reserved.
+           Unauthorized use, distribution or duplication is prohibited.
+
+
+
+
+ 
+
+
+
+
+                                2021 R1
+                                   
+                 Point Releases and Patches installed:
+                                   
+                       Academic Student 2021 R1
+                             Aqwa 2021 R1
+                            EnSight 2021 R1
+                          FENSAP-ICE 2021 R1
+
+
+
+
+                            Solver :   EXPLICIT
+                             Build :   AUTODYN-3D Academic V-2021 R1           
+                Model File Version :   2021 R1
+                        Build Date :   20201121
+                 Current Date/Time :   20210413  8:23 (+0800GMT)
+                          Platform :   64 bit
+                              Beta :   FALSE
+                   User Subroutine :   FALSE
+               MPI Library Version :   Intel(R) MPI Library 2018 Update 3 for Windows* OS
+
+
+
+
+
+                             IDENT :   admodel                                                                                                                                                                                                                                                         
+                             Title :                                           
+                       Description :                                                                                                                                                                                                                                                                   
+                       Start Cycle :            0
+                        Start Time :  0.00000E+00
+                         Precision :   Double
+
+
+
+
+   UNITS
+
+                            Length :   millimeter
+                              Mass :   milligram 
+                              Time :   millisec. 
+
+
+
+
+   SYMMETRY PLANES
+
+             Symmetry plane at X=0 :   No        
+                               Y=0 :   No        
+                               Z=0 :   No        
+
+
+
+
+   WRAPUP PARAMETERS
+
+                       Cycle Limit :     10000000
+                        Time Limit :  5.00000E-01
+     Maximum Energy Error Fraction :  1.00000E-01
+            Energy Reference Cycle :            0
+
+
+
+
+   MULTIPLE LOADSTEP DEFINITION
+
+     Step    Type             Step End Time   Static Damping   Convergence Tol.  Max. Iterations
+
+        1    Standard         5.0000E-01      0.0000E+00
+
+
+
+
+   LOADSTEP OUTPUT CONTROLS
+
+     Step    Results       Value      Restarts       Value      Trackers      Value
+
+        1    Global          -         Global          -         Global          -     
+
+
+
+
+   TIME STEP INFORMATION
+
+                 Minimum Time Step :  2.09164E-05
+                 Maximum Time Step :  1.00000E+08
+                 Initial Time Step :  2.09164E-04
+           Time Step Safety Factor :  9.00000E-01
+                      Mass scaling :  OFF
+
+
+
+
+   GRAVITATIONAL CONSTANTS
+
+             Global X Gravity :  0.00000E+00
+             Global Y Gravity :  0.00000E+00
+             Global Z Gravity :  0.00000E+00
+
+
+
+
+   GRAVITATIONAL AND ACCELERATION CONSTANTS - SUM AT START CYCLE
+
+             Total  X Acceleration :  0.00000E+00
+             Total  Y Acceleration :  0.00000E+00
+             Total  Z Acceleration :  0.00000E+00
+
+
+
+
+
+ 
+   DAMPING CONSTANTS
+
+                 Hourglass Damping :  1.00000E-01
+                    Static Damping : Per loadstep
+
+
+
+
+   ARTIFICIAL VISCOSITY
+
+               Quadratic Viscosity :  1.00000E+00
+                  Linear Viscosity :  2.00000E-01
+     Apply Lin.vis. in exp. for HE :  No
+     Art. vis. in structured shells:  Yes
+
+
+
+
+   GLOBAL OUTPUT CONTROLS
+
+                    Save Results On  : Time
+                    Increments :        2.50000E-02
+                    Save Restarts On  : Time
+                    Increments :        1.00000E-01
+                    Save Trackers On : Cycles
+                    Increments :        1.00000E+00
+
+
+
+
+   CUTOFF VALUES
+
+                   Velocity Cutoff :  1.00000E-06
+                 Soundspeed Cutoff :  1.00000E-06
+                     Radius Cutoff :  1.00000E-03
+                  Maximum Velocity :  1.00000E+10
+               Maximum Temperature :  1.01000E+20
+                    Join Tolerance :  5.00000E-02
+
+
+
+
+   METHOD OF CALCULATING CHARACTERISTIC ZONE DIMENSION
+
+                     Method to Use :  Diagonals
+
+
+
+
+   METHOD OF UPDATING LAG/ALE CELL DENSITIES AND COMPRESSIONS
+
+                     Method to Use :  Automatic
+
+
+
+
+   USER VARIABLES
+
+     Fortran name  User name     Restart  Rezone
+
+     VAR01         VAR.1         N        N
+     VAR02         VAR.2         N        N
+     VAR03         VAR.3         N        N
+     VAR04         VAR.4         N        N
+     VAR05         VAR.5         N        N
+     VAR06         VAR.6         N        N
+     VAR07         VAR.7         N        N
+     VAR08         VAR.8         N        N
+     VAR09         VAR.9         N        N
+     VAR10         VAR.10        N        N
+     VAR11         VAR.11        N        N
+     VAR12         VAR.12        N        N
+     VAR13         VAR.13        N        N
+     VAR14         VAR.14        N        N
+     VAR15         VAR.15        N        N
+     VAR16         VAR.16        N        N
+     VAR17         VAR.17        N        N
+     VAR18         VAR.18        N        N
+     VAR19         VAR.19        N        N
+     VAR20         VAR.20        N        N
+
+
+
+
+
+ 
+   GLOBAL MATERIAL SETTINGS
+
+      Shell yield converg. accuracy:  High
+
+
+
+
+   MATERIALS
+
+
+
+                         MATERIAL NAME: RIGID-Structural Steel        
+
+
+                     Equation of State             Rigid                                                                           
+
+          Reference density                      (g/cm3   ) 7.85000E+00
+          Centre of Mass, X Coord.               (mm      ) 0.00000E+00
+          Centre of Mass, Y Coord.               (mm      ) 0.00000E+00
+          Centre of Mass, Z Coord.               (mm      ) 0.00000E+00
+          Mass                                   (mg      ) 0.00000E+00
+          Inertia IXX                            (mg.mm2  ) 0.00000E+00
+          Inertia IYY                            (mg.mm2  ) 0.00000E+00
+          Inertia IZZ                            (mg.mm2  ) 0.00000E+00
+          Inertia IXY                            (mg.mm2  ) 0.00000E+00
+          Inertia IYZ                            (mg.mm2  ) 0.00000E+00
+          Inertia IZX                            (mg.mm2  ) 0.00000E+00
+                  Constrain Rigid Body                    : No                                    
+                  Rigid Body Type                         : Multi-body                            
+                  Rigid Mesh Behaviour                    : Full Mesh                             
+
+
+                     Strength                      None                                                                            
+
+
+
+                     Failure                       None                                                                            
+
+
+
+                     Erosion                       None                                                                            
+
+
+
+                     Material Cutoffs              
+
+          Maximum Expansion                      (none    ) 1.00000E-01
+          Minimum Density Factor                 (none    ) 1.00000E-04
+          Minimum Density Factor (SPH)           (none    ) 2.00000E-01
+          Maximum Density Factor (SPH)           (none    ) 3.00000E+00
+          Minimum Soundspeed                     (m/s     ) 1.00000E-06
+          Maximum Soundspeed (SPH)               (m/s     ) 1.01000E+20
+          Maximum Temperature                    (K       ) 1.01000E+20
+
+
+           Reference: 
+                                                                                                                                                                                                                                                                
+
+
+           Notes: 
+                                                                                                                                                                                                                                                                
+
+
+                         MATERIAL NAME: Aluminum Alloy NL             
+
+
+                     Equation of State             Linear                                                                          
+
+          Reference density                      (g/cm3   ) 2.77000E+00
+          Bulk Modulus                           (kPa     ) 6.96078E+07
+          Reference Temperature                  (K       ) 2.95150E+02
+          Specific Heat                          (J/kgK   ) 8.75000E+02
+          Thermal Conductivity                   (J/mKs   ) 0.00000E+00
+
+
+                     Strength                      Bilinear Hardening                                                              
+
+          Shear Modulus                          (kPa     ) 2.66917E+07
+          Yield Stress                           (kPa     ) 2.80000E+05
+          Tangent Modulus                        (kPa     ) 0.00000E+00
+                  Hardening                               : Isotropic                             
+
+
+                     Failure                       Plastic Strain                                                                  
+
+          Plastic Strain                         (none    ) 7.50000E-01
+                  Crack Softening                         : No                                    
+                  Stochastic failure                      : No                                    
+
+
+                     Erosion                       None                                                                            
+
+
+
+                     Material Cutoffs              
+
+          Maximum Expansion                      (none    ) 1.00000E-01
+          Minimum Density Factor                 (none    ) 1.00000E-04
+          Minimum Density Factor (SPH)           (none    ) 2.00000E-01
+          Maximum Density Factor (SPH)           (none    ) 3.00000E+00
+          Minimum Soundspeed                     (m/s     ) 1.00000E-06
+          Maximum Soundspeed (SPH)               (m/s     ) 1.01000E+20
+          Maximum Temperature                    (K       ) 1.01000E+20
+
+
+           Reference: 
+                                                                                                                                                                                                                                                                
+
+
+           Notes: 
+                                                                                                                                                                                                                                                                
+
+
+
+
+
+
+
+
+
+ 
+   BOUNDARY CONDITIONS
+
+
+
+                     Fixed Support : General 3D Velocity                                             
+
+                  Constant X velocity  :  0.00000E+00
+                  Constant Y velocity  :  0.00000E+00
+                  Constant Z velocity  :  0.00000E+00
+           Constant ang. vel. about X  :  0.00000E+00
+           Constant ang. vel. about Y  :  0.00000E+00
+           Constant ang. vel. about Z  :  0.00000E+00
+
+
+
+
+
+
+
+
+
+ 
+     UNSTRUCTURED PARTS
+
+           PART                  NO. ELEMENTS         ELEMENT TYPE   ARTIFICIAL VISC.   HOURGLASS CONTROL     VISCOUS COEFF.   
+
+       1   Solid                        10215            Hex 8            Yes           AD STANDARD            1.00000E-01
+       1   Solid                          450            Penta 6          Yes           AD STANDARD            1.00000E-01
+       2   Surface Body                  1645            Shell 4          Yes           AD STANDARD            1.00000E-01
+
+           TOTAL NUMBER ELEMENTS:       12310
+           TOTAL NUMBER NODES:          13226
+
+
+
+
+     BODY CONTROL SPECIFICATION
+
+            
+
+       SHELL PART(S)
+
+           PART                  NO. SUBLAYERS         SHEAR CORRECTION         BWC WARP CORRECTION         THICKNESS UPDATE         INERTIA UPDATE         ARTIFICIAL VISC.   
+
+       2 Surface Body                 3                   8.33300E-01                    YES                   NODAL                    RECOMPUTE                YES       
+            
+
+       SOLID PART(S)
+
+           PART                  TET INTEGRATION TYPE         HEX INTEGRATION TYPE         HOURGLASS DAMPING        VISCOUS COEFF.    STIFFNESS COEFF.      PUSO STAB.   
+
+       1  Solid                  N/A                                EXACT                  AD STANDARD               1.00000E-01         0.00000E+00        0.00000E+00
+            
+
+   PART ACTIVATION / DEACTIVATION TIMES
+
+           PART           ACTIVATION   DEACTIVATION
+                             TIME          TIME
+
+
+
+
+
+ 
+   EDITS
+
+       EDIT FREQUENCY
+       EDIT TYPE   HOW DONE          START           END     INCREMENT
+
+       SAVE        by times    0.00000E+00   5.00000E-01   1.00000E-01
+       GRIDVAR     Never     
+       ENERGYSUM   by times    0.00000E+00   5.00000E-01   1.00000E-01
+       CYCSUM      Never     
+       HISTORY     by cycles             0      10000000             1
+       USER        Never     
+       FIELD       Never     
+
+ 
+   INTERACTIONS
+
+          Using trajectory contact:  Yes
+                            Method:  Penalty
+                   Sliding Surface:  Discrete
+                     Penalty Force:  Harmonic Mass
+           Group Contact Treatment:  Lumped
+            Shell thickness factor:  0.00000E+00
+            Full SPH radius (beta):  No        
+                  Search Algorithm:  Cube            
+              Retention of Inertia:  Yes       
+                  Self-interaction:  Yes       
+             Self-interaction Tol.:  2.00000E-01
+
+     Part Name       I-range             J-range             K-range
+     Solid                               Active
+     Surface Body                        Active
+
+     No coefficients of friction have been specified
+
+
+
+
+
+ 
+
+ 
+   RIGID BODY PROPERTIES
+
+
+ 
+     RIGID BODY INERTIA PROPERTIES IN GLOBAL SYSTEM
+
+       MATERIAL          CoM X-Coord  CoM Y-Coord  CoM Z-Coord         MASS  Inertia IXX  Inertia IYY  Inertia IZZ  Inertia IXY  Inertia IYZ  Inertia IZX
+       RIGID-Structu    -2.02599E-03  4.92250E-17 -4.25984E-03  3.06706E+06  1.07137E+10  9.60057E+08  1.07137E+10  0.00000E+00  0.00000E+00 -1.28622E+05
+
+ 
+     RIGID BODY INERTIA PROPERTIES IN PRINCIPAL SYSTEM
+
+       MATERIAL          Inertia IP1  Inertia IP2  Inertia IP3          E11          E12          E13          E21          E22          E23          E31          E32          E33
+       RIGID-Structu     9.60057E+08  1.07135E+10  1.07138E+10  0.00000E+00  7.10493E-01  7.03705E-01  1.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00  7.03705E-01 -7.10493E-01
+
+ 
+     RIGID BODY SOLVER OPTIONS
+
+       Transfer moments from beams/shells to rigid bodies :  Yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+CYCLE       0, TIME=  0.000E+00                                                                                  ENERGY SUMMARY EDIT
+ 
+
+
+ENERGY AND MOMENTUM PARTITIONING BY MATERIALS
+
+                                                         INTERNAL   KINETIC
+MATERIAL                                 MASS    VOLUME    ENERGY    ENERGY XMOMENTUM YMOMENTUM ZMOMENTUM
+
+RIGID-Structural Steel              3.067E+06 3.907E+05 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+Aluminum Alloy NL                   8.691E+04 3.137E+04 0.000E+00 3.911E+09 2.607E+07 0.000E+00 0.000E+00
+---------------------------------------------------------------------------------------------------------
+TOTALS                              3.154E+06 4.221E+05 0.000E+00 3.911E+09 2.607E+07 0.000E+00 0.000E+00
+
+
+ENERGY AND MOMENTUM PARTITIONING BY PARTS
+
+                                                         INTERNAL   KINETIC                               HOURGLASS   CONTACT
+PART                                     MASS    VOLUME    ENERGY    ENERGY XMOMENTUM YMOMENTUM ZMOMENTUM    ENERGY    ENERGY
+
+Solid                               3.067E+06 3.907E+05 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+Surface Body                        8.691E+04 3.137E+04 0.000E+00 3.911E+09 2.607E+07 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+-----------------------------------------------------------------------------------------------------------------------------
+TOTALS                              3.154E+06 4.221E+05 0.000E+00 3.911E+09 2.607E+07 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+
+
+ENERGY AND MOMENTUM BALANCE
+
+INITIAL ENERGY  3.911E+09, X-MOM  2.607E+07, Y-MOM  0.000E+00, Z-MOM  0.000E+00
+EXTERNAL WORK   0.000E+00, X-IMP  0.000E+00, Y-IMP  0.000E+00, Z-IMP  0.000E+00
+CONTACT ENERGY  0.000E+00
+CURRENT ENERGY  3.911E+09, X-MOM  2.607E+07, Y-MOM  0.000E+00, Z-MOM  0.000E+00
+-------------------------------------------------------------------------------
+ERROR           0.000E+00         0.000E+00         0.000E+00         0.000E+00
+
+CYCLE     189, TIME=  1.000E-01                                                                                  ENERGY SUMMARY EDIT
+ 
+
+
+ENERGY AND MOMENTUM PARTITIONING BY MATERIALS
+
+                                                         INTERNAL   KINETIC
+MATERIAL                                 MASS    VOLUME    ENERGY    ENERGY XMOMENTUM YMOMENTUM ZMOMENTUM
+
+RIGID-Structural Steel              3.067E+06 3.907E+05 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+Aluminum Alloy NL                   8.691E+04 3.133E+04 4.752E+08 3.097E+09 2.194E+07-3.237E+03 1.257E+05
+---------------------------------------------------------------------------------------------------------
+TOTALS                              3.154E+06 4.220E+05 4.752E+08 3.097E+09 2.194E+07-3.237E+03 1.257E+05
+
+
+ENERGY AND MOMENTUM PARTITIONING BY PARTS
+
+                                                         INTERNAL   KINETIC                               HOURGLASS   CONTACT
+PART                                     MASS    VOLUME    ENERGY    ENERGY XMOMENTUM YMOMENTUM ZMOMENTUM    ENERGY    ENERGY
+
+Solid                               3.067E+06 3.907E+05 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+Surface Body                        8.691E+04 3.133E+04 4.752E+08 3.097E+09 2.194E+07-3.237E+03 1.257E+05 4.464E+07-1.335E+08
+-----------------------------------------------------------------------------------------------------------------------------
+TOTALS                              3.154E+06 4.220E+05 4.752E+08 3.097E+09 2.194E+07-3.237E+03 1.257E+05 4.464E+07-1.335E+08
+
+
+ENERGY AND MOMENTUM BALANCE
+
+INITIAL ENERGY  3.911E+09, X-MOM  2.607E+07, Y-MOM  0.000E+00, Z-MOM  0.000E+00
+EXTERNAL WORK  -2.034E+08, X-IMP -4.131E+06, Y-IMP -3.237E+03, Z-IMP  1.257E+05
+CONTACT ENERGY -1.335E+08
+CURRENT ENERGY  3.572E+09, X-MOM  2.194E+07, Y-MOM -3.237E+03, Z-MOM  1.257E+05
+-------------------------------------------------------------------------------
+ERROR          -2.019E+06         2.794E-08         2.278E-10         1.651E-07
+
+CYCLE     388, TIME=  2.003E-01                                                                                  ENERGY SUMMARY EDIT
+ 
+
+
+ENERGY AND MOMENTUM PARTITIONING BY MATERIALS
+
+                                                         INTERNAL   KINETIC
+MATERIAL                                 MASS    VOLUME    ENERGY    ENERGY XMOMENTUM YMOMENTUM ZMOMENTUM
+
+RIGID-Structural Steel              3.067E+06 3.907E+05 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+Aluminum Alloy NL                   8.691E+04 3.131E+04 6.673E+08 2.540E+09 1.868E+07-1.301E+04 1.407E+05
+---------------------------------------------------------------------------------------------------------
+TOTALS                              3.154E+06 4.220E+05 6.673E+08 2.540E+09 1.868E+07-1.301E+04 1.407E+05
+
+
+ENERGY AND MOMENTUM PARTITIONING BY PARTS
+
+                                                         INTERNAL   KINETIC                               HOURGLASS   CONTACT
+PART                                     MASS    VOLUME    ENERGY    ENERGY XMOMENTUM YMOMENTUM ZMOMENTUM    ENERGY    ENERGY
+
+Solid                               3.067E+06 3.907E+05 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+Surface Body                        8.691E+04 3.131E+04 6.673E+08 2.540E+09 1.868E+07-1.301E+04 1.407E+05 4.308E+07-2.275E+08
+-----------------------------------------------------------------------------------------------------------------------------
+TOTALS                              3.154E+06 4.220E+05 6.673E+08 2.540E+09 1.868E+07-1.301E+04 1.407E+05 4.308E+07-2.275E+08
+
+
+ENERGY AND MOMENTUM BALANCE
+
+INITIAL ENERGY  3.911E+09, X-MOM  2.607E+07, Y-MOM  0.000E+00, Z-MOM  0.000E+00
+EXTERNAL WORK  -4.730E+08, X-IMP -7.389E+06, Y-IMP -1.301E+04, Z-IMP  1.407E+05
+CONTACT ENERGY -2.275E+08
+CURRENT ENERGY  3.207E+09, X-MOM  1.868E+07, Y-MOM -1.301E+04, Z-MOM  1.407E+05
+-------------------------------------------------------------------------------
+ERROR          -3.388E+06         2.142E-08         1.819E-10         1.660E-07
+
+CYCLE     586, TIME=  3.002E-01                                                                                  ENERGY SUMMARY EDIT
+ 
+
+
+ENERGY AND MOMENTUM PARTITIONING BY MATERIALS
+
+                                                         INTERNAL   KINETIC
+MATERIAL                                 MASS    VOLUME    ENERGY    ENERGY XMOMENTUM YMOMENTUM ZMOMENTUM
+
+RIGID-Structural Steel              3.067E+06 3.907E+05 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+Aluminum Alloy NL                   8.691E+04 3.130E+04 7.726E+08 2.289E+09 1.769E+07-1.773E+04 3.076E+05
+---------------------------------------------------------------------------------------------------------
+TOTALS                              3.154E+06 4.220E+05 7.726E+08 2.289E+09 1.769E+07-1.773E+04 3.076E+05
+
+
+ENERGY AND MOMENTUM PARTITIONING BY PARTS
+
+                                                         INTERNAL   KINETIC                               HOURGLASS   CONTACT
+PART                                     MASS    VOLUME    ENERGY    ENERGY XMOMENTUM YMOMENTUM ZMOMENTUM    ENERGY    ENERGY
+
+Solid                               3.067E+06 3.907E+05 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+Surface Body                        8.691E+04 3.130E+04 7.726E+08 2.289E+09 1.769E+07-1.773E+04 3.076E+05 3.125E+07-2.373E+08
+-----------------------------------------------------------------------------------------------------------------------------
+TOTALS                              3.154E+06 4.220E+05 7.726E+08 2.289E+09 1.769E+07-1.773E+04 3.076E+05 3.125E+07-2.373E+08
+
+
+ENERGY AND MOMENTUM BALANCE
+
+INITIAL ENERGY  3.911E+09, X-MOM  2.607E+07, Y-MOM  0.000E+00, Z-MOM  0.000E+00
+EXTERNAL WORK  -6.096E+08, X-IMP -8.378E+06, Y-IMP -1.773E+04, Z-IMP  3.076E+05
+CONTACT ENERGY -2.373E+08
+CURRENT ENERGY  3.062E+09, X-MOM  1.769E+07, Y-MOM -1.773E+04, Z-MOM  3.076E+05
+-------------------------------------------------------------------------------
+ERROR          -1.820E+06         1.956E-08         1.673E-10         1.662E-07
+
+CYCLE     781, TIME=  4.000E-01                                                                                  ENERGY SUMMARY EDIT
+ 
+
+
+ENERGY AND MOMENTUM PARTITIONING BY MATERIALS
+
+                                                         INTERNAL   KINETIC
+MATERIAL                                 MASS    VOLUME    ENERGY    ENERGY XMOMENTUM YMOMENTUM ZMOMENTUM
+
+RIGID-Structural Steel              3.067E+06 3.907E+05 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+Aluminum Alloy NL                   8.691E+04 3.129E+04 7.783E+08 2.257E+09 1.774E+07-2.279E+04 2.794E+05
+---------------------------------------------------------------------------------------------------------
+TOTALS                              3.154E+06 4.220E+05 7.783E+08 2.257E+09 1.774E+07-2.279E+04 2.794E+05
+
+
+ENERGY AND MOMENTUM PARTITIONING BY PARTS
+
+                                                         INTERNAL   KINETIC                               HOURGLASS   CONTACT
+PART                                     MASS    VOLUME    ENERGY    ENERGY XMOMENTUM YMOMENTUM ZMOMENTUM    ENERGY    ENERGY
+
+Solid                               3.067E+06 3.907E+05 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+Surface Body                        8.691E+04 3.129E+04 7.783E+08 2.257E+09 1.774E+07-2.279E+04 2.794E+05 3.382E+07-2.415E+08
+-----------------------------------------------------------------------------------------------------------------------------
+TOTALS                              3.154E+06 4.220E+05 7.783E+08 2.257E+09 1.774E+07-2.279E+04 2.794E+05 3.382E+07-2.415E+08
+
+
+ENERGY AND MOMENTUM BALANCE
+
+INITIAL ENERGY  3.911E+09, X-MOM  2.607E+07, Y-MOM  0.000E+00, Z-MOM  0.000E+00
+EXTERNAL WORK  -6.331E+08, X-IMP -8.329E+06, Y-IMP -2.279E+04, Z-IMP  2.794E+05
+CONTACT ENERGY -2.415E+08
+CURRENT ENERGY  3.036E+09, X-MOM  1.774E+07, Y-MOM -2.279E+04, Z-MOM  2.794E+05
+-------------------------------------------------------------------------------
+ERROR          -3.892E+05         1.397E-08         2.365E-10         1.677E-07
+
+CYCLE     977, TIME=  5.005E-01                                                                                  ENERGY SUMMARY EDIT
+ 
+
+
+ENERGY AND MOMENTUM PARTITIONING BY MATERIALS
+
+                                                         INTERNAL   KINETIC
+MATERIAL                                 MASS    VOLUME    ENERGY    ENERGY XMOMENTUM YMOMENTUM ZMOMENTUM
+
+RIGID-Structural Steel              3.067E+06 3.907E+05 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+Aluminum Alloy NL                   8.691E+04 3.128E+04 7.945E+08 2.236E+09 1.778E+07-2.315E+04 2.179E+05
+---------------------------------------------------------------------------------------------------------
+TOTALS                              3.154E+06 4.220E+05 7.945E+08 2.236E+09 1.778E+07-2.315E+04 2.179E+05
+
+
+ENERGY AND MOMENTUM PARTITIONING BY PARTS
+
+                                                         INTERNAL   KINETIC                               HOURGLASS   CONTACT
+PART                                     MASS    VOLUME    ENERGY    ENERGY XMOMENTUM YMOMENTUM ZMOMENTUM    ENERGY    ENERGY
+
+Solid                               3.067E+06 3.907E+05 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+Surface Body                        8.691E+04 3.128E+04 7.945E+08 2.236E+09 1.778E+07-2.315E+04 2.179E+05 3.453E+07-2.442E+08
+-----------------------------------------------------------------------------------------------------------------------------
+TOTALS                              3.154E+06 4.220E+05 7.945E+08 2.236E+09 1.778E+07-2.315E+04 2.179E+05 3.453E+07-2.442E+08
+
+
+ENERGY AND MOMENTUM BALANCE
+
+INITIAL ENERGY  3.911E+09, X-MOM  2.607E+07, Y-MOM  0.000E+00, Z-MOM  0.000E+00
+EXTERNAL WORK  -6.372E+08, X-IMP -8.288E+06, Y-IMP -2.315E+04, Z-IMP  2.179E+05
+CONTACT ENERGY -2.442E+08
+CURRENT ENERGY  3.031E+09, X-MOM  1.778E+07, Y-MOM -2.315E+04, Z-MOM  2.179E+05
+-------------------------------------------------------------------------------
+ERROR           1.234E+06         3.632E-08         1.892E-10         1.644E-07
+ 
+ 
+SIMULATION ELAPSED TIME SUMMARY
+ 
+EXECUTION FROM CYCLE        0 TO      977
+ELAPSED RUN TIME IN SOLVER  =      1.67283E-01 Minutes
+ELAPSED RUN TIME IN CONTACT =      6.50500E-02 Minutes
+ELAPSED RUN TIME IN EDITS   =      1.20133E-01 Minutes
+TOTAL ELAPSED RUN TIME      =      2.87417E-01 Minutes
+ 
+AUTODYN RAN OVER     2 WORKERS
+AUTODYN RAN USING DECOMPOSITION AUTO    
+
+AUTODYN RAN ON THE FOLLOWING MACHINES;
+
+-----------------------------------------------------------------------
+|    MACHINE NAME                  |     MASTER     |    WORKER(S)    |
+-----------------------------------------------------------------------
+|    DESKTOP-BTDLNGA               |        1       |        2        |
+-----------------------------------------------------------------------
+

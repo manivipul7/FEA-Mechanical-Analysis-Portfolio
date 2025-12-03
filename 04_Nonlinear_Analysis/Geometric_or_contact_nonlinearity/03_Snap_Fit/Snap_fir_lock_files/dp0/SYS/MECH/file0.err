@@ -1,0 +1,1342 @@
+/COM,ANSYS RELEASE 2021 R1           BUILD 21.1      UP20201109       08:57:27
+
+ *** WARNING ***                         CP =       0.391   TIME= 08:57:28
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       0.422   TIME= 08:57:28
+ All selected contact pairs are initially open.  Rigid body motion can   
+ occur.  You may use auto CNOF/ICONT by setting KEYOPT(5) to close       
+ small gaps.                                                             
+
+ *** WARNING ***                         CP =       0.969   TIME= 08:57:28
+ Contact element 1398 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1169).                       
+
+ *** ERROR ***                           CP =       1.156   TIME= 08:57:28
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =       1.156   TIME= 08:57:28
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =       3.562   TIME= 08:57:31
+ Contact element 1395 (real ID 4) status changes abruptly from contact   
+ (with target element 1166) -> no-contact.                               
+
+ *** WARNING ***                         CP =       4.141   TIME= 08:57:32
+ Contact element 1391 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1210).                       
+
+ *** WARNING ***                         CP =       5.078   TIME= 08:57:33
+ Contact element 1390 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1208).                       
+
+ *** WARNING ***                         CP =       5.562   TIME= 08:57:34
+ Contact element 1390 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1206).                       
+
+ *** WARNING ***                         CP =      15.875   TIME= 08:57:46
+ Contact element 1361 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1210).                       
+
+ *** WARNING ***                         CP =      18.141   TIME= 08:57:49
+ Contact element 1360 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1207).                       
+
+ *** ERROR ***                           CP =      24.469   TIME= 08:57:56
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      37.094   TIME= 08:58:11
+ Contact element 1383 (real ID 4) status changes abruptly from contact   
+ (with target element 1225) -> no-contact.                               
+
+ *** ERROR ***                           CP =      37.250   TIME= 08:58:11
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      37.250   TIME= 08:58:11
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      44.234   TIME= 08:58:20
+ Contact element 1385 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1221).                       
+
+ *** WARNING ***                         CP =      46.734   TIME= 08:58:23
+ Contact element 1379 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1222).                       
+
+ *** ERROR ***                           CP =      46.953   TIME= 08:58:23
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      50.656   TIME= 08:58:27
+ Contact element 1366 (real ID 4) status changes abruptly from contact   
+ (with target element 1223) -> no-contact.                               
+
+ *** ERROR ***                           CP =      50.797   TIME= 08:58:27
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      50.797   TIME= 08:58:27
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      51.297   TIME= 08:58:28
+ Contact element 1366 (real ID 4) status changes abruptly from contact   
+ (with target element 1223) -> no-contact.                               
+
+ *** ERROR ***                           CP =      51.438   TIME= 08:58:28
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      51.438   TIME= 08:58:28
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      55.578   TIME= 08:58:33
+ Contact element 1363 (real ID 4) status changes abruptly from contact   
+ (with target element 1222) -> no-contact.                               
+
+ *** ERROR ***                           CP =      55.734   TIME= 08:58:33
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      55.734   TIME= 08:58:33
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      57.750   TIME= 08:58:36
+ Contact element 1363 (real ID 4) status changes abruptly from contact   
+ (with target element 1220) -> no-contact.                               
+
+ *** ERROR ***                           CP =      57.859   TIME= 08:58:36
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      57.859   TIME= 08:58:36
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      60.297   TIME= 08:58:39
+ Contact element 1362 (real ID 4) status changes abruptly from contact   
+ (with target element 1220) -> no-contact.                               
+
+ *** ERROR ***                           CP =      60.453   TIME= 08:58:39
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      60.453   TIME= 08:58:39
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      64.000   TIME= 08:58:44
+ Contact element 1360 (real ID 4) status changes abruptly from contact   
+ (with target element 1219) -> no-contact.                               
+
+ *** ERROR ***                           CP =      64.125   TIME= 08:58:44
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      64.125   TIME= 08:58:44
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      65.891   TIME= 08:58:46
+ Contact element 1382 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1231).                       
+
+ *** ERROR ***                           CP =      66.016   TIME= 08:58:46
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      66.031   TIME= 08:58:46
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      68.578   TIME= 08:58:49
+ Contact element 1380 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1231).                       
+
+ *** ERROR ***                           CP =      68.750   TIME= 08:58:50
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      68.750   TIME= 08:58:50
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      70.812   TIME= 08:58:52
+ Contact element 1379 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1231).                       
+
+ *** ERROR ***                           CP =      70.953   TIME= 08:58:52
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      70.953   TIME= 08:58:52
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      73.562   TIME= 08:58:56
+ Contact element 1357 (real ID 4) status changes abruptly from contact   
+ (with target element 1215) -> no-contact.                               
+
+ *** ERROR ***                           CP =      73.719   TIME= 08:58:56
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      73.719   TIME= 08:58:56
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      75.375   TIME= 08:58:58
+ Contact element 1356 (real ID 4) status changes abruptly from contact   
+ (with target element 1215) -> no-contact.                               
+
+ *** ERROR ***                           CP =      75.531   TIME= 08:58:58
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      75.531   TIME= 08:58:58
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      77.422   TIME= 08:59:00
+ Contact element 1356 (real ID 4) status changes abruptly from contact   
+ (with target element 1214) -> no-contact.                               
+
+ *** ERROR ***                           CP =      77.562   TIME= 08:59:00
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      77.562   TIME= 08:59:00
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      80.125   TIME= 08:59:03
+ Contact element 1373 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1231).                       
+
+ *** ERROR ***                           CP =      80.297   TIME= 08:59:04
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      80.297   TIME= 08:59:04
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      83.609   TIME= 08:59:07
+ Contact element 1354 (real ID 4) status changes abruptly from contact   
+ (with target element 1246) -> no-contact.                               
+
+ *** ERROR ***                           CP =      83.734   TIME= 08:59:08
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      83.734   TIME= 08:59:08
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      88.297   TIME= 08:59:13
+ Contact element 1353 (real ID 4) status changes abruptly from contact   
+ (with target element 1243) -> no-contact.                               
+
+ *** ERROR ***                           CP =      88.438   TIME= 08:59:13
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      88.438   TIME= 08:59:13
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      91.266   TIME= 08:59:16
+ Contact element 1364 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1229).                       
+
+ *** ERROR ***                           CP =      91.406   TIME= 08:59:17
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      91.406   TIME= 08:59:17
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      93.406   TIME= 08:59:19
+ Contact element 1363 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1228).                       
+
+ *** ERROR ***                           CP =      93.594   TIME= 08:59:19
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      93.594   TIME= 08:59:19
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      95.500   TIME= 08:59:21
+ Contact element 1362 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1228).                       
+
+ *** ERROR ***                           CP =      95.609   TIME= 08:59:22
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      98.031   TIME= 08:59:24
+ Contact element 1360 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1228).                       
+
+ *** ERROR ***                           CP =      98.391   TIME= 08:59:25
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =      98.391   TIME= 08:59:25
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     102.297   TIME= 08:59:30
+ Contact element 1357 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1229).                       
+
+ *** WARNING ***                         CP =     105.172   TIME= 08:59:33
+ A reference force value times the tolerance is used by the              
+ Newton-Raphson method for checking convergence.  The calculated         
+ reference FORCE CONVERGENCE VALUE = 2.897387222E-03 is less than a      
+ threshold.  This threshold is internally calculated.  You can           
+ overwrite it by specifying MINREF on the CNVTOL command.  Check         
+ results carefully.                                                      
+
+ *** WARNING ***                         CP =     113.844   TIME= 08:59:43
+ Contact element 1357 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1229).                       
+
+ *** WARNING ***                         CP =     115.500   TIME= 08:59:45
+ Contact element 1358 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1229).                       
+
+ *** WARNING ***                         CP =     118.078   TIME= 08:59:48
+ Contact element 1359 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1228).                       
+
+ *** ERROR ***                           CP =     118.531   TIME= 08:59:49
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     118.531   TIME= 08:59:49
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     120.875   TIME= 08:59:52
+ Contact element 1360 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1228).                       
+
+ *** ERROR ***                           CP =     121.203   TIME= 08:59:52
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     123.578   TIME= 08:59:55
+ Contact element 1361 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1228).                       
+
+ *** ERROR ***                           CP =     123.703   TIME= 08:59:55
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     123.703   TIME= 08:59:55
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     126.031   TIME= 08:59:58
+ Contact element 1363 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1228).                       
+
+ *** ERROR ***                           CP =     126.188   TIME= 08:59:58
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     126.188   TIME= 08:59:58
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     127.672   TIME= 09:00:00
+ Contact element 1364 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1228).                       
+
+ *** ERROR ***                           CP =     127.797   TIME= 09:00:00
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     127.797   TIME= 09:00:00
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     129.859   TIME= 09:00:03
+ Contact element 1366 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1229).                       
+
+ *** ERROR ***                           CP =     130.016   TIME= 09:00:03
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     130.016   TIME= 09:00:03
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     131.938   TIME= 09:00:05
+ Contact element 1367 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1230).                       
+
+ *** ERROR ***                           CP =     132.094   TIME= 09:00:05
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     132.094   TIME= 09:00:05
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     134.000   TIME= 09:00:08
+ Contact element 1369 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1231).                       
+
+ *** ERROR ***                           CP =     134.156   TIME= 09:00:08
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     134.156   TIME= 09:00:08
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     136.312   TIME= 09:00:10
+ Contact element 1372 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1231).                       
+
+ *** ERROR ***                           CP =     136.422   TIME= 09:00:11
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     136.422   TIME= 09:00:11
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     137.688   TIME= 09:00:12
+ Contact element 1372 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1231).                       
+
+ *** ERROR ***                           CP =     137.844   TIME= 09:00:12
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     137.844   TIME= 09:00:12
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     140.047   TIME= 09:00:15
+ Contact element 1354 (real ID 4) status changes abruptly from contact   
+ (with target element 1213) -> no-contact.                               
+
+ *** ERROR ***                           CP =     140.203   TIME= 09:00:15
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     140.203   TIME= 09:00:15
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     142.031   TIME= 09:00:17
+ Contact element 1355 (real ID 4) status changes abruptly from contact   
+ (with target element 1213) -> no-contact.                               
+
+ *** ERROR ***                           CP =     142.156   TIME= 09:00:18
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     142.156   TIME= 09:00:18
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     144.344   TIME= 09:00:20
+ Contact element 1377 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1231).                       
+
+ *** ERROR ***                           CP =     144.484   TIME= 09:00:21
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     144.484   TIME= 09:00:21
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     145.703   TIME= 09:00:22
+ Contact element 1378 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1231).                       
+
+ *** ERROR ***                           CP =     145.828   TIME= 09:00:22
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     145.828   TIME= 09:00:22
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     148.812   TIME= 09:00:26
+ Contact element 1380 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1232).                       
+
+ *** ERROR ***                           CP =     148.953   TIME= 09:00:26
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     148.953   TIME= 09:00:26
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     150.719   TIME= 09:00:28
+ Contact element 1381 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1232).                       
+
+ *** ERROR ***                           CP =     150.844   TIME= 09:00:28
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     150.844   TIME= 09:00:28
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     153.812   TIME= 09:00:32
+ Contact element 1359 (real ID 4) status changes abruptly from contact   
+ (with target element 1217) -> no-contact.                               
+
+ *** ERROR ***                           CP =     153.969   TIME= 09:00:32
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     153.969   TIME= 09:00:32
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     155.562   TIME= 09:00:34
+ Contact element 1360 (real ID 4) status changes abruptly from contact   
+ (with target element 1218) -> no-contact.                               
+
+ *** ERROR ***                           CP =     155.719   TIME= 09:00:34
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     155.719   TIME= 09:00:34
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     157.594   TIME= 09:00:36
+ Contact element 1360 (real ID 4) status changes abruptly from contact   
+ (with target element 1219) -> no-contact.                               
+
+ *** ERROR ***                           CP =     157.734   TIME= 09:00:37
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     157.734   TIME= 09:00:37
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     159.969   TIME= 09:00:39
+ Contact element 1361 (real ID 4) status changes abruptly from contact   
+ (with target element 1219) -> no-contact.                               
+
+ *** ERROR ***                           CP =     160.078   TIME= 09:00:39
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     160.078   TIME= 09:00:39
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     162.453   TIME= 09:00:42
+ Contact element 1362 (real ID 4) status changes abruptly from contact   
+ (with target element 1220) -> no-contact.                               
+
+ *** ERROR ***                           CP =     162.594   TIME= 09:00:42
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     162.609   TIME= 09:00:42
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     165.125   TIME= 09:00:46
+ Contact element 1363 (real ID 4) status changes abruptly from contact   
+ (with target element 1221) -> no-contact.                               
+
+ *** ERROR ***                           CP =     165.266   TIME= 09:00:46
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     165.266   TIME= 09:00:46
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     167.422   TIME= 09:00:48
+ Contact element 1364 (real ID 4) status changes abruptly from contact   
+ (with target element 1222) -> no-contact.                               
+
+ *** ERROR ***                           CP =     167.594   TIME= 09:00:49
+ Element 1140 (type = 1, PLANE183) (and maybe other elements) has become 
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** ERROR ***                           CP =     167.594   TIME= 09:00:49
+ Element 417 (type = 2, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =     170.516   TIME= 09:00:52
+ Contact element 1369 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1221).                       
+
+ *** WARNING ***                         CP =     174.000   TIME= 09:00:56
+ Contact element 1369 (real ID 4) status changes abruptly from contact   
+ (with target element 1224) -> no-contact.                               
+
+ *** WARNING ***                         CP =     177.734   TIME= 09:01:01
+ Contact element 1375 (real ID 4) status changes abruptly from contact   
+ (with target element 1225) -> no-contact.                               
+
+ *** WARNING ***                         CP =     179.641   TIME= 09:01:03
+ Contact element 1377 (real ID 4) status changes abruptly from contact   
+ (with target element 1225) -> no-contact.                               
+
+ *** WARNING ***                         CP =     184.656   TIME= 09:01:09
+ Contact element 1397 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1223).                       
+
+ *** WARNING ***                         CP =     186.422   TIME= 09:01:11
+ Contact element 1397 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1224).                       
+
+ *** WARNING ***                         CP =     189.594   TIME= 09:01:15
+ Contact element 1394 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1180).                       
+
+ *** WARNING ***                         CP =     204.016   TIME= 09:01:32
+ Contact element 1389 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1200).                       
+
+ *** WARNING ***                         CP =     212.922   TIME= 09:01:42
+ Contact element 1391 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1210).                       
+
+ *** WARNING ***                         CP =     213.625   TIME= 09:01:43
+ Contact element 1392 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 1212).                       
+
+ *** WARNING ***                         CP =     215.891   TIME= 09:01:46
+ A reference force value times the tolerance is used by the              
+ Newton-Raphson method for checking convergence.  The calculated         
+ reference FORCE CONVERGENCE VALUE = 4.19130361E-04 is less than a       
+ threshold.  This threshold is internally calculated.  You can           
+ overwrite it by specifying MINREF on the CNVTOL command.  Check         
+ results carefully.                                                      

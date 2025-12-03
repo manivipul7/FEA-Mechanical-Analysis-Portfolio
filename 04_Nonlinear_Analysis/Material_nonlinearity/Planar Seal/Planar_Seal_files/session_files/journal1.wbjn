@@ -1,0 +1,618 @@
+# encoding: utf-8
+# 2021 R1
+SetScriptVersion(Version="21.1.216")
+template1 = GetTemplate(
+    TemplateName="Static Structural",
+    Solver="ANSYS")
+system1 = template1.CreateSystem()
+Save(Overwrite=True)
+unitSystem1 = SetProjectUnitSystem(UnitSystemName="BIN_STANDARD")
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+matl1 = engineeringData1.CreateMaterial(Name="Rubber")
+matlProp1 = matl1.CreateProperty(
+    Name="Uniaxial Test Data",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp2 = matl1.CreateProperty(
+    Name="Biaxial Test Data",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp3 = matl1.CreateProperty(
+    Name="Shear Test Data",
+    Qualifiers={"Definition": "", "Behavior": ""})
+materialPropertyData1 = matlProp1.GetPropertyData(
+    Name="Uniaxial Test Data",
+    Qualifiers={"Definition": "", "Behavior": ""})
+dataProvider1 = materialPropertyData1.CreateDataProvider(Format="Delimited Text")
+dataProvider1.FileName = r"C:\Users\ASUS\Documents\ANSYS\ANSYS2021\Sec14-3\UniaxialTestData.csv"
+dataProvider1.ReadLine = 1
+dataProvider1.Columns = [1, 2]
+dataProvider1.Delimiter = ","
+dataProvider1.VariableNames = ["Strain", "Stress"]
+dataProvider1.VariableUnits = ["in in^-1", "psi"]
+dataProvider1.Import()
+matlProp1.BeginBatchUpdate()
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=1,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=2,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=3,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=4,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=5,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=6,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=7,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=8,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=9,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=10,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=11,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=12,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=13,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=14,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=15,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=16,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=17,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=18,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=19,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=20,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=21,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=22,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=23,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=24,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=25,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=26,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.SetData(
+    SheetName="Uniaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=27,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp1.EndBatchUpdate()
+materialPropertyData2 = matlProp2.GetPropertyData(
+    Name="Biaxial Test Data",
+    Qualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"})
+dataProvider2 = materialPropertyData2.CreateDataProvider(Format="Delimited Text")
+dataProvider2.FileName = r"C:\Users\ASUS\Documents\ANSYS\ANSYS2021\Sec14-3\BiaxialTestData.csv"
+dataProvider2.ReadLine = 1
+dataProvider2.Columns = [1, 2]
+dataProvider2.Delimiter = ","
+dataProvider2.VariableNames = ["Strain", "Stress"]
+dataProvider2.VariableUnits = ["in in^-1", "psi"]
+dataProvider2.Import()
+matlProp2.BeginBatchUpdate()
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=1,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=2,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=3,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=4,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=5,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=6,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=7,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=8,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=9,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=10,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=11,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=12,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=13,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=14,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=15,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=16,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=17,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=18,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=19,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=20,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=21,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=22,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=23,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=24,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=25,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=26,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=27,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=28,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=29,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=30,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=31,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=32,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=33,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=34,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=35,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.SetData(
+    SheetName="Biaxial Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=36,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp2.EndBatchUpdate()
+materialPropertyData3 = matlProp3.GetPropertyData(
+    Name="Shear Test Data",
+    Qualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"})
+dataProvider3 = materialPropertyData3.CreateDataProvider(Format="Delimited Text")
+dataProvider3.FileName = r"C:\Users\ASUS\Documents\ANSYS\ANSYS2021\Sec14-3\ShearTestData.csv"
+dataProvider3.ReadLine = 1
+dataProvider3.Columns = [1, 2]
+dataProvider3.Delimiter = ","
+dataProvider3.VariableNames = ["Strain", "Stress"]
+dataProvider3.VariableUnits = ["in in^-1", "psi"]
+dataProvider3.Import()
+matlProp3.BeginBatchUpdate()
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=1,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=2,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=3,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=4,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=5,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=6,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=7,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=8,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=9,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=10,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=11,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=12,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=13,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=14,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=15,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=16,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=17,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=18,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=19,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=20,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=21,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=22,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.SetData(
+    SheetName="Shear Test Data",
+    SheetQualifiers={"Definition": "", "Behavior": "", "Has Lateral Strain": "No"},
+    Index=23,
+    Variables=["Temperature"],
+    Values=[["70 [F]"]])
+matlProp3.EndBatchUpdate()
+matlProp4 = matl1.CreateProperty(
+    Name="Mooney-Rivlin",
+    Definition="2 Parameter",
+    Qualifiers={"Definition": "2 Parameter", "Behavior": ""})
+materialPropertyData4 = matlProp4.GetPropertyData(
+    Name="Mooney-Rivlin",
+    Qualifiers={"Definition": "2 Parameter", "Behavior": ""})
+curveFit1 = materialPropertyData4.CreateCurveFitting(
+    Type="Mooney-Rivlin",
+    Definition="2 Parameter")
+curveFit1.AddTestData(TestData=matlProp1)
+curveFit1.AddTestData(TestData=matlProp2)
+curveFit1.AddTestData(TestData=matlProp3)
+curveFit1.Solve()
+curveFit1.CopyCoefficients(Destination=materialPropertyData4)
+Save(Overwrite=True)
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit()
+geometry1.Exit()
+Save(Overwrite=True)
+geometryProperties1 = geometry1.GetGeometryProperties()
+geometryProperties1.GeometryImportAnalysisType = "AnalysisType_2D"
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+model1.Exit()
+Save(Overwrite=True)

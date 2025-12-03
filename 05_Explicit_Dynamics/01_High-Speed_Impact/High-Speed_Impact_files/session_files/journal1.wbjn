@@ -1,0 +1,39 @@
+# encoding: utf-8
+# 2021 R1
+SetScriptVersion(Version="21.1.216")
+template1 = GetTemplate(
+    TemplateName="Explicit Dynamics",
+    Solver="AUTODYN")
+system1 = template1.CreateSystem()
+Save(Overwrite=True)
+favorites1 = EngData.LoadFavoriteItems()
+library1 = EngData.OpenLibrary(
+    Name="General Materials",
+    Source="General_Materials.xml")
+library2 = EngData.OpenLibrary(
+    Name="General Non-linear Materials",
+    Source="General Materials Non-linear.xml")
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+matl1 = engineeringData1.ImportMaterial(
+    Name="Aluminum Alloy NL",
+    Source="General Materials Non-linear.xml")
+matlProp1 = matl1.GetProperty(Name="Isotropic Hardening")
+matlProp1.SetData(
+    Variables=["Tangent Modulus"],
+    Values=[["0 [Pa]"]])
+matlProp2 = matl1.CreateProperty(
+    Name="Plastic Strain Failure",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp2.SetData(
+    Variables=["Maximum Equivalent Plastic Strain EPS"],
+    Values=[["0.75"]])
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit()
+geometry1.Exit()
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+Save(Overwrite=True)
+model1.Exit()
+Save(Overwrite=True)

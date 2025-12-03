@@ -1,0 +1,46 @@
+/COM,ANSYS RELEASE 2021 R1           BUILD 21.1      UP20201109       09:21:00
+
+ *** WARNING ***                         CP =       0.375   TIME= 09:21:01
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       0.406   TIME= 09:21:01
+ Material number 8 (used by element 609) should normally have at least   
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       0.750   TIME= 09:21:01
+ Some of the nodes in the selected set were on beam elements for which   
+ the SFDEL command is not valid.  Use the SFEDELE command instead.       
+
+ *** WARNING ***                         CP =       0.766   TIME= 09:21:01
+ Material number 8 (used by element 609) should normally have at least   
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       0.812   TIME= 09:21:01
+ Material number 8 (used by element 609) should normally have at least   
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       1.859   TIME= 09:21:03
+ Some of the nodes in the selected set were on beam elements for which   
+ the SFDEL command is not valid.  Use the SFEDELE command instead.       
+
+ *** WARNING ***                         CP =       1.859   TIME= 09:21:03
+ To avoid duplication when using the LVSCALE command, delete all loads   
+ unless already deleted.                                                 
+
+ *** WARNING ***                         CP =       1.891   TIME= 09:21:03
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       1.891   TIME= 09:21:03
+ Material number 8 (used by element 609) should normally have at least   
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       2.281   TIME= 09:21:03
+ Element nodal forces were not requested (OUTRES,NLOAD) during the modal 
+ solution.  Any subsequent reaction force output (e.g.  PRRSOL) will     
+ therefore be of type STATIC only.                                       

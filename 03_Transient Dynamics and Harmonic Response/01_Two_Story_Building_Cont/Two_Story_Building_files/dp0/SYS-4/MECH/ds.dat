@@ -1,0 +1,233 @@
+/batch
+/config,noeldb,1     ! force off writing results to database
+*get,_wallstrt,active,,time,wall
+! ANSYS input file written by Workbench version 2021 R1
+/com,*********** Resuming The ANSYS db File from Modal Solution ***********
+resume,file,db
+*DIM,_wb_ProjectScratch_dir_Harmonic,string,248
+_wb_ProjectScratch_dir_Harmonic(1)= 'C:\Users\ASUS\Documents\ANSYS\ANSYS2021\Sec12-3\_ProjectScratch\ScrE0D2\'
+*DIM,_wb_SolverFiles_dir_Harmonic,string,248
+_wb_SolverFiles_dir_Harmonic(1)= 'C:\Users\ASUS\Documents\ANSYS\ANSYS2021\Sec12-3\Building_files\dp0\SYS-4\MECH\'
+*DIM,_wb_userfiles_dir_Harmonic,string,248
+_wb_userfiles_dir_Harmonic(1)= 'C:\Users\ASUS\Documents\ANSYS\ANSYS2021\Sec12-3\Building_files\user_files\'
+/title,Building--Harmonic Response (C5)
+! ****** Begin Custom Load Command Snippet ******
+/COM, ACT Extensions:
+/COM,     LSDYNA, 2021.1
+/COM,     5f463412-bd3e-484b-87e7-cbc0a665e474, wbex
+/COM,
+! ****** End   Custom Load Command Snippet ******
+/nopr
+/prep7
+/com,*********** Defining Loadings ***********
+/com,*********** Define Pressure Using Surface Effect Elements ***********
+et,9,154
+eblock,10,,,64
+(15i9)
+      993        9        9        9        0      214      218      213      261
+      994        9        9        9        0      261      215      219      214
+      995        9        9        9        0      213      217      216      261
+      996        9        9        9        0      216      220      215      261
+      997        9        9        9        0      213      253      221      217
+      998        9        9        9        0      218      260      253      213
+      999        9        9        9        0      214      257      222      218
+     1000        9        9        9        0      219      223      257      214
+     1001        9        9        9        0      215      255      259      219
+     1002        9        9        9        0      220      258      255      215
+     1003        9        9        9        0      217      225      256      216
+     1004        9        9        9        0      256      224      220      216
+     1005        9        9        9        0      221      226      225      217
+     1006        9        9        9        0      222      227      260      218
+     1007        9        9        9        0      259      228      223      219
+     1008        9        9        9        0      224      229      258      220
+     1009        9        9        9        0      253      231      254      221
+     1010        9        9        9        0      221      254      230      226
+     1011        9        9        9        0      257      237      236      222
+     1012        9        9        9        0      222      236      235      227
+     1013        9        9        9        0      227      233      232      260
+     1014        9        9        9        0      260      232      231      253
+     1015        9        9        9        0      255      243      242      259
+     1016        9        9        9        0      259      242      241      228
+     1017        9        9        9        0      228      239      238      223
+     1018        9        9        9        0      223      238      237      257
+     1019        9        9        9        0      256      249      248      224
+     1020        9        9        9        0      224      248      247      229
+     1021        9        9        9        0      229      245      244      258
+     1022        9        9        9        0      258      244      243      255
+     1023        9        9        9        0      226      251      250      225
+     1024        9        9        9        0      225      250      249      256
+     1025        9        9        9        0      230      252      251      226
+     1026        9        9        9        0      235      234      233      227
+     1027        9        9        9        0      241      240      239      228
+     1028        9        9        9        0      247      246      245      229
+     1029        9        9        9        0      230      148      149      252
+     1030        9        9        9        0      254      147      148      230
+     1031        9        9        9        0      231      146      147      254
+     1032        9        9        9        0      232      145      146      231
+     1033        9        9        9        0      233      144      145      232
+     1034        9        9        9        0      234      143      144      233
+     1035        9        9        9        0      234      177      127      143
+     1036        9        9        9        0      235      176      177      234
+     1037        9        9        9        0      236      175      176      235
+     1038        9        9        9        0      237      174      175      236
+     1039        9        9        9        0      238      173      174      237
+     1040        9        9        9        0      239      172      173      238
+     1041        9        9        9        0      240      171      172      239
+     1042        9        9        9        0      240      206       95      171
+     1043        9        9        9        0      241      207      206      240
+     1044        9        9        9        0      242      208      207      241
+     1045        9        9        9        0      243      209      208      242
+     1046        9        9        9        0      244      210      209      243
+     1047        9        9        9        0      245      211      210      244
+     1048        9        9        9        0      246      212      211      245
+     1049        9        9        9        0      246      164       87      212
+     1050        9        9        9        0      247      165      164      246
+     1051        9        9        9        0      248      166      165      247
+     1052        9        9        9        0      249      167      166      248
+     1053        9        9        9        0      250      168      167      249
+     1054        9        9        9        0      251      169      168      250
+     1055        9        9        9        0      252      170      169      251
+     1056        9        9        9        0      149      119      170      252
+-1
+esel,s,type,,9
+keyop,9,7,0                ! Use deformed area for application of load
+esel,all
+
+*DIM,_loadvari100,TABLE,1,1,1,TIME,
+! Time values
+_loadvari100(1,0,1) = 1.
+! Load values
+_loadvari100(1,1,1) = 1.00000000029975
+
+
+*DIM,_loadvari100i,TABLE,1,1,1,TIME,
+! Time values
+_loadvari100i(1,0,1) = 1.
+! Load values
+_loadvari100i(1,1,1) = 0.
+
+fini
+/com,*********** Performing Modal Re-start ***********
+/gopr
+/solu
+antype,modal,restart    ! restarting the modal analysis
+modcontrol,on
+thexpand,off     ! ignore thermal strains
+mxpand,,,,yes,,yes     ! expand requested results and write them to file.mode
+outres,erase
+outres,all,none
+outres,nsol,all
+outres,eangl,all
+outres,etmp,all
+outres,veng,all
+outres,rsol,all
+outres,cont,all
+/nopr
+esel,s,type,,1
+esel,a,type,,1
+esel,a,type,,1
+cm,_elmisc,elem
+esel,all
+/gopr
+outres,misc,all,_elmisc
+fdele,all,all
+sfdele,all,all
+sfedele,all,all,all
+acel,0,0,0                 ! zero out the acceleration
+/com,*********** Setting and Solving Each Load Step ***********
+esel,s,type,,9
+nsle
+sf,all,pres,1,0
+nsel,all
+esel,all
+solve
+fdele,all,all
+sfdele,all,all
+sfedele,all,all,all
+acel,0,0,0                 ! zero out the acceleration
+/com,*********** Setting and Solving Each Load Step ***********
+esel,s,type,,9
+nsle
+sf,all,pres,0,1
+nsel,all
+esel,all
+solve
+/com *************** Write FE CONNECTORS ********* 
+CEWRITE,file,ce,,INTE
+fini
+/com,*********** Performing MSUP Harmonic Solve ***********
+/solu
+antype,harm
+hropt,msup
+thexpand,off     ! ignore thermal strains
+hrout,off,on
+kbc,1
+harfrq,0.000000,50.000000
+nsub,4
+dmprat,1.e-002      ! Constant Damping Ratio
+fdele,all,all
+sfdele,all,all
+sfedele,all,all,all
+acel,0,0,0                 ! zero out the acceleration
+lvscale,0,1
+/com,*********** Scaling Each Load Step for MSUP Solve ***********
+lvscale,%_loadvari100%,1
+lvscale,%_loadvari100i%,2
+! *********** WB SOLVE COMMAND ***********
+! check interactive state
+*get,ANSINTER_,active,,int
+*if,ANSINTER_,ne,0,then
+/eof
+*endif
+solve
+
+fini
+*get,_wallasol,active,,time,wall
+/nopr
+*get,_numnode,node,0,count
+*get,_numelem,elem,0,count
+*get, _MAXELEMNUM, elem, 0, NUM, MAX
+*get, _MAXNODENUM, node, 0, NUM, MAX,,,INTERNAL
+*get, _MAXELEMTYPE, etyp, 0, NUM, MAX
+*get, _MAXREALCONST, real, 0, NUM, MAX
+/gopr
+! ------- MSUP EXPANSION PASS -------
+/solu
+expass,on
+hrexp,all
+outres,erase
+outres,all,none
+outres,nsol,all
+outres,eangl,all
+outres,etmp,all
+outres,veng,all
+outres,rsol,all
+outres,cont,all
+outres,misc,all,_elmisc
+numexp,all,,,yes        ! expand results at all freq. and calculate requested result items
+! *********** WB SOLVE COMMAND ***********
+! check interactive state
+*get,ANSINTER_,active,,int
+*if,ANSINTER_,ne,0,then
+/eof
+*endif
+solve
+fini
+/post1
+xmlo,ENCODING,ISO-8859-1
+xmlo,parm
+/xml,parm,xml
+fini
+/gopr
+*get,_walldone,active,,time,wall
+_preptime=(_wallbsol-_wallstrt)*3600
+_solvtime=(_wallasol-_wallbsol)*3600
+_posttime=(_walldone-_wallasol)*3600
+_totaltim=(_walldone-_wallstrt)*3600
+*get,_dlbratio,active,0,solu,dlbr
+*get,_combtime,active,0,solu,comb
+/com,--- Total number of nodes = %_numnode%
+/com,--- Total number of elements = %_numelem%
+/com,--- Element load balance ratio = %_dlbratio%
+/com,--- Time to combine distributed files = %_combtime%
+/wb,file,end               ! done with WB generated input

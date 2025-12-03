@@ -1,0 +1,107 @@
+/COM,ANSYS RELEASE 2021 R1           BUILD 21.1      UP20201109       09:59:21
+
+ *** WARNING ***                         CP =       0.391   TIME= 09:59:22
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       0.422   TIME= 09:59:22
+ Hyper-elastic material may become unstable, material number 1 at        
+ temperature 70.                                                         
+
+ *** WARNING ***                         CP =       1.047   TIME= 09:59:22
+ Pivoting has been activated for the Distributed Sparse Matrix Solver .  
+ The memory required may greatly exceed the predicted amount.  In that   
+ event, use the DSPOPTION command to change the memory mode and/or       
+ memory size used by the Distributed Sparse Matrix Solver.               
+
+ *** WARNING ***                         CP =       2.109   TIME= 09:59:24
+ Contact element 2301 (real ID 6) status changes abruptly from contact   
+ (with target element 2333) -> no-contact.                               
+
+ *** WARNING ***                         CP =       2.750   TIME= 09:59:24
+ Contact element 2078 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 2159).                       
+
+ *** WARNING ***                         CP =       4.219   TIME= 09:59:26
+ A reference force value times the tolerance is used by the              
+ Newton-Raphson method for checking convergence.  The calculated         
+ reference FORCE CONVERGENCE VALUE = 0.240561337 is less than a          
+ threshold.  This threshold is internally calculated.  You can           
+ overwrite it by specifying MINREF on the CNVTOL command.  Check         
+ results carefully.                                                      
+
+ *** WARNING ***                         CP =       4.453   TIME= 09:59:26
+ Contact element 2285 (real ID 6) status changes abruptly from           
+ no-contact -> contact (with target element 2330).                       
+
+ *** WARNING ***                         CP =       5.016   TIME= 09:59:27
+ Contact element 2083 (real ID 4) status changes abruptly from contact   
+ (with target element 2155) -> no-contact.                               
+
+ *** WARNING ***                         CP =       6.781   TIME= 09:59:29
+ Contact element 2276 (real ID 6) status changes abruptly from           
+ no-contact -> contact (with target element 2333).                       
+
+ *** WARNING ***                         CP =       7.406   TIME= 09:59:30
+ Contact element 2082 (real ID 4) status changes abruptly from contact   
+ (with target element 2156) -> no-contact.                               
+
+ *** WARNING ***                         CP =       9.812   TIME= 09:59:33
+ Contact element 2242 (real ID 6) status changes abruptly from           
+ no-contact -> contact (with target element 2368).                       
+
+ *** WARNING ***                         CP =      10.172   TIME= 09:59:33
+ Contact element 2124 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 2209).                       
+
+ *** WARNING ***                         CP =      12.219   TIME= 09:59:35
+ Contact element 2134 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 2209).                       
+
+ *** WARNING ***                         CP =      12.234   TIME= 09:59:35
+ Contact element 2256 (real ID 6) status changes abruptly from           
+ no-contact -> contact (with target element 2355).                       
+
+ *** ERROR ***                           CP =      14.031   TIME= 09:59:37
+ Element 389 (type = 1, PLANE183) (and maybe other elements) has become  
+ highly distorted.  Excessive distortion of elements is usually a        
+ symptom indicating the need for corrective action elsewhere.  Try       
+ incrementing the load more slowly (increase the number of substeps or   
+ decrease the time step size).  You may need to improve your mesh to     
+ obtain elements with better aspect ratios.  Also consider the behavior  
+ of materials, contact pairs, and/or constraint equations.  Please rule  
+ out other root causes of this failure before attempting rezoning or     
+ nonlinear adaptive solutions.  If this message appears in the first     
+ iteration of first substep, be sure to perform element shape checking.  
+
+ *** WARNING ***                         CP =      14.078   TIME= 09:59:37
+ Contact element 2270 (real ID 6) status changes abruptly from           
+ no-contact -> contact (with target element 2341).                       
+
+ *** WARNING ***                         CP =      15.141   TIME= 09:59:39
+ Contact element 2144 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 2213).                       
+
+ *** WARNING ***                         CP =      15.156   TIME= 09:59:39
+ Contact element 2263 (real ID 6) status changes abruptly from           
+ no-contact -> contact (with target element 2348).                       
+
+ *** WARNING ***                         CP =      17.703   TIME= 09:59:42
+ Contact element 2141 (real ID 4) status changes abruptly from contact   
+ (with target element 2214) -> no-contact.                               
+
+ *** WARNING ***                         CP =      18.688   TIME= 09:59:43
+ Contact element 2251 (real ID 6) status changes abruptly from           
+ no-contact -> contact (with target element 2360).                       
+
+ *** WARNING ***                         CP =      20.406   TIME= 09:59:45
+ Contact element 2293 (real ID 6) status changes abruptly from           
+ no-contact -> contact (with target element 2318).                       
+
+ *** WARNING ***                         CP =      22.484   TIME= 09:59:47
+ Contact element 2296 (real ID 6) status changes abruptly from           
+ no-contact -> contact (with target element 2316).                       
+
+ *** WARNING ***                         CP =      22.500   TIME= 09:59:47
+ Contact element 2084 (real ID 4) status changes abruptly from           
+ no-contact -> contact (with target element 2201).                       

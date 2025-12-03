@@ -1,0 +1,30 @@
+# encoding: utf-8
+# 2021 R1
+SetScriptVersion(Version="21.1.216")
+system1 = GetSystem(Name="Geom")
+system1.Copy(KeepConnections=True)
+system1.DisplayText = "3D Gear"
+system2 = GetSystem(Name="Geom 1")
+system2.DisplayText = "2D Gear Set"
+template1 = GetTemplate(
+    TemplateName="Static Structural",
+    Solver="ANSYS")
+system3 = template1.CreateSystem()
+system3.DisplayText = "2D Gear Set Simulation"
+geometryComponent1 = system3.GetComponent(Name="Geometry")
+geometryComponent2 = system2.GetComponent(Name="Geometry")
+geometryComponent1.ReplaceWithShare(
+    TargetSystem=system3,
+    ComponentToShare=geometryComponent2,
+    SourceSystem=system2)
+geometry1 = system2.GetContainer(ComponentName="Geometry")
+geometry1.Edit()
+geometry1.Exit()
+geometryProperties1 = geometry1.GetGeometryProperties()
+geometryProperties1.GeometryImportAnalysisType = "AnalysisType_2D"
+modelComponent1 = system3.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system3.GetContainer(ComponentName="Model")
+model1.Edit()
+model1.Exit()
+Save(Overwrite=True)

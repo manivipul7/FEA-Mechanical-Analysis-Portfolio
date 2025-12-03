@@ -1,0 +1,30 @@
+Cycle:      963, Time:  4.933E-04s, Time Inc.: 5.135E-07s, Progress:  98.66%, Est. Clock Time Remaining: 0s
+Cycle:      964, Time:  4.938E-04s, Time Inc.: 5.135E-07s, Progress:  98.77%, Est. Clock Time Remaining: 0s
+Cycle:      965, Time:  4.943E-04s, Time Inc.: 5.135E-07s, Progress:  98.87%, Est. Clock Time Remaining: 0s
+Cycle:      966, Time:  4.949E-04s, Time Inc.: 5.135E-07s, Progress:  98.97%, Est. Clock Time Remaining: 0s
+Cycle:      967, Time:  4.954E-04s, Time Inc.: 5.135E-07s, Progress:  99.07%, Est. Clock Time Remaining: 0s
+Cycle:      968, Time:  4.959E-04s, Time Inc.: 5.135E-07s, Progress:  99.18%, Est. Clock Time Remaining: 0s
+Cycle:      969, Time:  4.964E-04s, Time Inc.: 5.134E-07s, Progress:  99.28%, Est. Clock Time Remaining: 0s
+Cycle:      970, Time:  4.969E-04s, Time Inc.: 5.134E-07s, Progress:  99.38%, Est. Clock Time Remaining: 0s
+Cycle:      971, Time:  4.974E-04s, Time Inc.: 5.134E-07s, Progress:  99.49%, Est. Clock Time Remaining: 0s
+Cycle:      972, Time:  4.979E-04s, Time Inc.: 5.134E-07s, Progress:  99.59%, Est. Clock Time Remaining: 0s
+Cycle:      973, Time:  4.985E-04s, Time Inc.: 5.134E-07s, Progress:  99.69%, Est. Clock Time Remaining: 0s
+Cycle:      974, Time:  4.990E-04s, Time Inc.: 5.134E-07s, Progress:  99.79%, Est. Clock Time Remaining: 0s
+Cycle:      975, Time:  4.995E-04s, Time Inc.: 5.134E-07s, Progress:  99.90%, Est. Clock Time Remaining: 0s
+Cycle:      976, Time:  5.000E-04s, Time Inc.: 5.134E-07s, Progress: 100.00%, Est. Clock Time Remaining: 0s
+Cycle:      977, Time:  5.005E-04s, Time Inc.: 5.134E-07s, Progress: 100.00%, Est. Clock Time Remaining: -
+ 
+ 
+SIMULATION ELAPSED TIME SUMMARY
+ 
+EXECUTION FROM CYCLE        0 TO      977
+ELAPSED RUN TIME IN SOLVER =      1.67283E-01 Minutes
+TOTAL ELAPSED RUN TIME     =      2.87417E-01 Minutes
+JOB RAN OVER     2 WORKERS
+JOB RAN USING Intel MPI
+JOB RAN USING DECOMPOSITION AUTO
+ 
+Problem terminated .... wrapup time reached
+ 
+ ********************************************
+ 
