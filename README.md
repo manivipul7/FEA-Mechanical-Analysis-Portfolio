@@ -1,6 +1,6 @@
 # Finite Element Analysis Portfolio
 
-This repository is a curated collection of finite element analysis (FEA) projects implemented in ANSYS Workbench, inspired by the structure of “Finite Element Simulations with ANSYS Workbench 2021” by Huei‑Huang Lee, and extended with additional engineering insight, hand calculations, and verification studies. All descriptions, commentary, and post-processing are written in my own words and are intended purely as a demonstration of my FEA skills and understanding.
+This repository is a curated collection of finite element analysis (FEA) projects implemented in ANSYS Workbench, inspired by the structure of “Finite Element Simulations with ANSYS Workbench 2021” by Huei‑Huang Lee, and extended with additional engineering insight and verification studies. All descriptions, commentary, and post-processing are written in my own words and are intended purely as a demonstration of my FEA skills and understanding.
 
 ---
 
@@ -16,12 +16,6 @@ This repository showcases practical FEA experience across:
 - Nonlinear analysis (geometric, contact, and material)  
 - Explicit dynamics for high-speed impact and drop tests  
 
-Each project folder contains:
-
-- Problem description (in my own words)  
-- Modeling approach (geometry, materials, contacts, boundary conditions)  
-- Meshing strategy and convergence checks where relevant  
-- Post-processing of results and key engineering conclusions  
 
 ---
 
