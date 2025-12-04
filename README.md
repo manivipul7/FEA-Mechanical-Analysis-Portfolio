@@ -321,7 +321,7 @@ Each project folder contains:
        width="35%">
   <img src="05_Explicit_Dynamics/01_High-Speed_Impact/Mesh.png"
        alt="Finite element mesh used for high-speed impact simulation"
-       width="47%">
+       width="46%">
 </p>
 
 <p align="center">
