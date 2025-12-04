@@ -45,7 +45,12 @@ This repository showcases practical FEA experience across:
 
 ### 01 Static Structural Projects
 
+These cases focus on equilibrium response under applied loads, covering stiffness, stress distribution, and deformation patterns.
+
 ### 1A Pneumatic Fingers
+
+This model studies pneumatically actuated fingers subjected to internal pressure loads. The static analysis captures the resulting finger deflection, stiffness, and load transfer, ensuring that the deformation profile remains compatible with the intended gripping function.
+
 
 <p align="center">
   <img src="01_Static_Structural_Projects/01_Pneumatic_Fingers/Directional_Deformation_gif.gif"
@@ -62,6 +67,8 @@ This repository showcases practical FEA experience across:
 
 ### 1B Spur Gear
 
+The spur gear analysis evaluates the equivalent (von Mises) stress in the gear teeth under a representative torque or contact load. Peak stresses near the tooth root and fillets are checked against material yield and fatigue limits.
+
 <p align="center">
   <img src="01_Static_Structural_Projects/02_Spur Gear/Equivalent_Stress_(von-Mises).png"
        alt="Equivalent von-Mises stress in a spur gear"
@@ -75,6 +82,8 @@ This repository showcases practical FEA experience across:
 ---
 
 ### 1C Pressure Cylinder Cover
+
+The pressure cylinder cover is loaded with internal pressure to quantify total deformation and equivalent stress. The analysis verifies flange flexibility, bolt-circle stiffness, and local stress concentrations around the sealing region.
 
 <p align="center">
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Total_Deformation.png"
@@ -111,6 +120,10 @@ This repository showcases practical FEA experience across:
 
 ### 1D Lifting Fork
 
+The lifting fork is evaluated under self-weight and applied lifting loads to capture directional deformation and principal stress fields. Static and transient load cases highlight how the fork prongs deflect under gravity and time-varying loads.
+
+
+
 <p align="center">
    <img src="01_Static_Structural_Projects/04_Lifting_Fork/Directional_Deformation_Earth_Gravity.png"
        alt="Directional deformation of lifting fork under gravity"
@@ -131,7 +144,11 @@ This repository showcases practical FEA experience across:
 
 ### 02 Modal and Vibrational Analysis
 
+This group of models extracts natural frequencies and mode shapes to understand how structures respond to dynamic excitation. The results support design decisions related to resonance avoidance, damping strategies, and attachment locations.
+
 ### 2A Gearbox – Mode Shapes
+
+The gearbox housing is analyzed to obtain its first six mode shapes and associated natural frequencies. The results reveal global bending, torsional, and local panel modes that can be excited by gear mesh forces and motor vibrations.
 
 <p align="center">
   <img src="02_Modal_and_Vibrational_Analysis/01_Gearbox/Mode_1.gif"
@@ -167,6 +184,8 @@ This repository showcases practical FEA experience across:
 ---
 
 ### 2B Two-Story Building – Mode Shapes
+
+The two-story building model is used to study the first six structural modes relevant to seismic or wind excitation. The mode shapes illustrate floor sway, torsional behavior, and higher-order deformations of the frame.
 
 <p align="center">
   <img src="02_Modal_and_Vibrational_Analysis/02_Two-Story_Building/Mode_1.gif"
@@ -205,6 +224,8 @@ This repository showcases practical FEA experience across:
 
 ### 03 Transient Dynamics and Harmonic Response
 
+This section focuses on time-dependent response under dynamic loads, where inertia and damping significantly influence structural behavior. The models are used to study how loads propagate, amplify, and decay over time.
+
 
 <p align="center">
   <img src="03_Transient Dynamics and Harmonic Response/02_Disk_and_Block/Total_Deformation.gif"
@@ -222,9 +243,11 @@ This repository showcases practical FEA experience across:
 
 ### 04 Nonlinear Analysis – Geometric / Contact Nonlinearity
 
+This group covers geometric, contact, and material nonlinearity, where response is no longer proportional to the applied loads. The models demonstrate realistic behavior in mechanisms, snap-fits, and hyperelastic components.
 
 ### 4A Translational Joint
 
+The translational joint model includes contact interfaces and large displacements to capture nonlinear stiffness behavior. Under increasing load, contact conditions evolve from separation to sliding and sticking, producing a strongly nonlinear force–displacement response.
 
 <p align="center">
   <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/01_Translational_Joint/Geometry.png"
@@ -243,6 +266,7 @@ This repository showcases practical FEA experience across:
 
 ### 4B Microgripper
 
+The microgripper features slender beams and localized contact at the gripping tips, making geometric and contact nonlinearities dominant. The model tracks large deformations, tip closure behavior, and local stresses as the gripper is actuated.
 
 <p align="center">
   <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/02_Microgripper/Problem Statement.png"
@@ -260,6 +284,8 @@ This repository showcases practical FEA experience across:
 ---
 
 ### 4C Snap Fit
+
+The snap-fit assembly is simulated through engagement and release to capture highly nonlinear deformation and contact forces. The model resolves local bending of the snap arm, contact pressure evolution, and potential plasticity or stress concentration zones.
 
 
 <p align="center">
@@ -280,6 +306,9 @@ This repository showcases practical FEA experience across:
 ### 04 Nonlinear Analysis – Material Nonlinearity
 
 ### 4D Planar Seal
+
+The planar seal is modeled using a hyperelastic material law to represent rubber-like behavior under large strains. The analysis evaluates displacement, principal stress, and elastic strain fields as the seal is compressed between rigid boundaries.
+
 <p align="center">
   <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Displacement.png"
        alt="Planar seal displacement field"
@@ -319,7 +348,12 @@ This repository showcases practical FEA experience across:
 
 ### 05 Explicit Dynamics
 
+Explicit methods are used here for highly nonlinear, short-duration events where high strain rates and complex contact dominate. The focus is on impact behavior, stress wave propagation, and structural survivability.
+
+
 ### 5A High-Speed Impact
+
+The high-speed impact model applies an initial velocity to a projectile or impactor and resolves the event with a refined mesh in the impact zone. Explicit dynamics are used to capture large deformations, high strain-rate effects, and rapidly evolving von Mises stresses.
 
 <p align="center">
   <img src="05_Explicit_Dynamics/01_High-Speed_Impact/Initial_Velocity.png"
@@ -352,6 +386,8 @@ This repository showcases practical FEA experience across:
 
 
 ### 5B Drop Test
+
+The drop test case simulates a component released from a specified height onto a rigid or semi-rigid surface. The model includes realistic contact, boundary conditions, and mesh refinement in expected impact regions.
 
 
 <p align="center">
