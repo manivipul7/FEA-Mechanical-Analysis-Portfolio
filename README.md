@@ -291,7 +291,12 @@ Each project folder contains:
   <em>Planar seal model and deformed configuration under compression.</em>
 </p>
 
+
 <p align="center">
+
+  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Shear_Elastic_Strain_gif.gif"
+       alt="Shear elastic strain distribution in planar seal"
+       width="45%">
 
   <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Min_Principal_Stress_gif.gif"
        alt="Minimum principal stress in planar seal"
@@ -319,9 +324,7 @@ Each project folder contains:
   <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Shear_Stress_gif.gif"
        alt="Shear stress distribution in planar seal"
        width="45%">
-  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Shear_Elastic_Strain_gif.gif"
-       alt="Shear elastic strain distribution in planar seal"
-       width="45%">
+
 </p>
 
 <p align="center">
