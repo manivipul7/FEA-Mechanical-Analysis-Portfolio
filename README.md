@@ -70,7 +70,7 @@ Each project folder contains:
 
 <p align="center">
   <img src="01_Static_Structural_Projects/02_Spur Gear/Equivalent_Stress_(von-Mises).png"
-       alt="Equivalent von Mises stress in a spur gear"
+       alt="Equivalent von-Mises stress in a spur gear"
        width="90%">
 </p>
 
@@ -99,7 +99,7 @@ Each project folder contains:
 </p>
 
 <p align="center">
-  <em>Equivalent (von Mises) stress distribution in the pressure cylinder cover, used to check allowable stress and safety margin.</em>
+  <em>Equivalent (von-Mises) stress distribution in the pressure cylinder cover, used to check allowable stress and safety margin.</em>
 </p>
 
 <p align="center">
