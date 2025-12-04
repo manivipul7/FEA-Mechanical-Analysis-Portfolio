@@ -257,15 +257,12 @@ Each project folder contains:
 
 
 <p align="center">
-  <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/03_Snap_Fit/Assembly_1.png"
-       alt="Snap-fit assembly geometry"
-       width="30%">
   <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/03_Snap_Fit/Mesh.png"
        alt="Finite element mesh for snap-fit assembly"
-       width="30%">
+       width="42%">
   <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/03_Snap_Fit/Total_Deformation_gif.gif"
        alt="Total deformation during snap-fit engagement"
-       width="30%">
+       width="42%">
 </p>
 
 <p align="center">
