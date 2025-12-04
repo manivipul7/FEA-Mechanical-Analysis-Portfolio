@@ -9,13 +9,10 @@ This repository is a curated collection of finite element analysis (FEA) project
 This repository showcases practical FEA experience across:
 
 - Linear static analysis of beams, plates, 3D solid parts, and assemblies  
-- Meshing and convergence studies, including treatment of stress singularities  
-- Buckling and stress stiffening of beams and truss structures  
 - Modal and vibration analysis of mechanical and structural systems  
 - Transient and harmonic response analyses  
 - Nonlinear analysis (geometric, contact, and material)  
 - Explicit dynamics for high-speed impact and drop tests  
-
 
 ---
 
