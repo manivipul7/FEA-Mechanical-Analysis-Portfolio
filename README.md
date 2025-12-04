@@ -86,11 +86,21 @@ Each project folder contains:
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Total_Deformation.png"
        alt="Total deformation of pressure cylinder"
        width="70%">
+</p>
+
+<p align="center">
+  <em>Total deformation of the pressure cylinder cover under internal pressure, highlighting global flexibility and critical displacement zones.</em>
+</p>
 
 <p align="center">
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Equivalent_Stress_(von-Mises).png"
        alt="von Mises stress in pressure cylinder"
        width="70%">
+</p>
+
+<p align="center">
+  <em>Equivalent (von Mises) stress distribution in the pressure cylinder cover, used to check allowable stress and safety margin.</em>
+</p>
 
 <p align="center">
   <img src="01_Static_Structural_Projects/03_Pressure_Cylinder/Circularity_check.png"
@@ -99,8 +109,9 @@ Each project folder contains:
 </p>
 
 <p align="center">
-  <em>Pressure vessel study: stress, deformation, and circularity check at the critical cross‑section.</em>
+  <em>Circularity check at the critical flange section, verifying that deformations remain within geometric tolerance under operating load.</em>
 </p>
+
 
 ---
 
