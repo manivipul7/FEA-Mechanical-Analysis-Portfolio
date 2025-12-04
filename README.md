@@ -275,16 +275,13 @@ Each project folder contains:
 
 ### 4D Planar Seal
 <p align="center">
-  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Geometry.png"
-       alt="Planar seal geometry"
-       width="45%">
   <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Displacement.png"
        alt="Planar seal displacement field"
-       width="45%">
+       width="70%">
 </p>
 
 <p align="center">
-  <em> Geometry and Boundary Condition configuration for a planar seal used in refrigeration. </em>
+  <em> Geometry and Boundary Condition configuration for a planar seal used in doors of commercial refrigerators. </em>
 </p>
 
 <p align="center">
@@ -301,16 +298,13 @@ Each project folder contains:
 </p>
 
 <p align="center">
-  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Max_Principal_Elastic_Strain_gif.gif"
-       alt="Maximum principal elastic strain in planar seal"
-       width="45%">
   <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Min_Principal_Elastic_Strain_gif.gif"
        alt="Minimum principal elastic strain in planar seal"
-       width="45%">
+       width="75%">
 </p>
 
 <p align="center">
-  <em>Maximum and minimum principal elastic strain fields highlighting highly strained regions in the seal.</em>
+  <em>Minimum principal elastic strain fields highlighting highly strained regions in the seal.</em>
 </p>
 
 
