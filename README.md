@@ -387,7 +387,7 @@ The high-speed impact model applies an initial velocity to a projectile or impac
 
 ### 5B Drop Test
 
-The drop test case simulates a component released from a specified height onto a rigid or semi-rigid surface. The model includes realistic contact, boundary conditions, and mesh refinement in expected impact regions.
+The drop test case simulates a component released from a specified height onto a rigid surface. The model includes realistic contact, boundary conditions, and mesh refinement in expected impact regions.
 
 
 <p align="center">
