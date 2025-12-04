@@ -54,7 +54,7 @@ Each project folder contains:
 ### 1A Pneumatic Fingers
 
 <p align="center">
-  <img src="01_Static_Structural_Projects/01_Pneumatic_Fingers/Directional_Deformation.png"
+  <img src="01_Static_Structural_Projects/01_Pneumatic_Fingers/Directional_Deformation_gif.gif"
        alt="Directional deformation of pneumatic fingers under pressure"
        width="90%">
 </p>
@@ -62,6 +62,7 @@ Each project folder contains:
 <p align="center">
   <em>Directional deformation of pneumatically actuated fingers in a static structural analysis.</em>
 </p>
+
 
 ---
 
