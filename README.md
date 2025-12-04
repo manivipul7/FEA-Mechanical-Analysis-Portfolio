@@ -318,10 +318,10 @@ Each project folder contains:
 <p align="center">
   <img src="05_Explicit_Dynamics/01_High-Speed_Impact/Initial_Velocity.png"
        alt="Initial velocity conditions for high-speed impact"
-       width="45%">
+       width="35%">
   <img src="05_Explicit_Dynamics/01_High-Speed_Impact/Mesh.png"
        alt="Finite element mesh used for high-speed impact simulation"
-       width="45%">
+       width="75%">
 </p>
 
 <p align="center">
