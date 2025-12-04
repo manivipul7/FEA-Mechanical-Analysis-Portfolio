@@ -273,8 +273,45 @@ Each project folder contains:
 
 ### 04 Nonlinear Analysis – Material Nonlinearity
 
-
 ### 4D Planar Seal
+<p align="center">
+  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Geometry.png"
+       alt="Planar seal geometry"
+       width="45%">
+  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Displacement.png"
+       alt="Planar seal displacement field"
+       width="45%">
+</p>
+
+<p align="center">
+  <em> Geometry and Boundary Condition configuration for a planar seal used in refrigeration. </em>
+</p>
+
+<p align="center">
+  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Max_Principal_Stress_gif.gif"
+       alt="Maximum principal stress in planar seal"
+       width="45%">
+  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Min_Principal_Stress_gif.gif"
+       alt="Minimum principal stress in planar seal"
+       width="45%">
+</p>
+
+<p align="center">
+  <em>Evolution of maximum and minimum principal stresses in the hyperelastic seal.</em>
+</p>
+
+<p align="center">
+  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Max_Principal_Elastic_Strain_gif.gif"
+       alt="Maximum principal elastic strain in planar seal"
+       width="45%">
+  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Min_Principal_Elastic_Strain_gif.gif"
+       alt="Minimum principal elastic strain in planar seal"
+       width="45%">
+</p>
+
+<p align="center">
+  <em>Maximum and minimum principal elastic strain fields highlighting highly strained regions in the seal.</em>
+</p>
 
 
 ---
