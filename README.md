@@ -223,10 +223,10 @@ Each project folder contains:
 <p align="center">
   <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/01_Translational_Joint/Geometry.png"
        alt="Geometry of translational joint model"
-       width="35%">
+       width="30%">
   <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/01_Translational_Joint/Total_Deformation.gif"
        alt="Total deformation of translational joint with contact nonlinearity"
-       width="45%">
+       width="50%">
 </p>
 
 <p align="center">
