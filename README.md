@@ -192,8 +192,14 @@ Each project folder contains:
 <p align="center">
   <em>First six mode shapes of a two-story building model, illustrating floor sway, torsion, and higher-order modes.</em>
 </p>
+
+
 ---
+
+
 ### 03 Transient Dynamics and Harmonic Response
+
+
 <p align="center">
   <img src="03_Transient Dynamics and Harmonic Response/02_Disk_and_Block/Total_Deformation.gif"
        alt="Total deformation of disk and block assembly in transient dynamics"
@@ -203,10 +209,16 @@ Each project folder contains:
 <p align="center">
   <em>Time-dependent total deformation of the disk–block system under dynamic loading.</em>
 </p>
+
+
 ---
+
+
 ### 04 Nonlinear Analysis – Geometric / Contact Nonlinearity
 
+
 ### 4A Translational Joint
+
 
 <p align="center">
   <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/01_Translational_Joint/Geometry.png"
@@ -220,8 +232,11 @@ Each project folder contains:
 <p align="center">
   <em>Translational joint model: contact-driven nonlinear stiffness and resulting deformation under load.</em>
 </p>
+
 ---
+
 ### 4B Microgripper
+
 
 <p align="center">
   <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/02_Microgripper/Problem Statement.png"
@@ -235,8 +250,11 @@ Each project folder contains:
 <p align="center">
   <em>Microgripper case: geometric and contact nonlinearity driving large, localized deformations at the gripper tips.</em>
 </p>
+
 ---
+
 ### 4C Snap Fit
+
 
 <p align="center">
   <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/03_Snap_Fit/Assembly_1.png"
@@ -253,10 +271,14 @@ Each project folder contains:
 <p align="center">
   <em>Snap-fit assembly: from CAD geometry and meshing to highly nonlinear engagement and release deformation.</em>
 </p>
+
 ---
+
 ### 04 Nonlinear Analysis – Material Nonlinearity
 
+
 ### 4D Planar Seal
+
 
 <p align="center">
   <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Geometry.png"
@@ -309,10 +331,15 @@ Each project folder contains:
 <p align="center">
   <em>Shear stress and shear elastic strain response of the seal under nonlinear material behavior.</em>
 </p>
+
+
 ---
+
+
 ### 05 Explicit Dynamics
 
 ### 5A High-Speed Impact
+
 <p align="center">
   <img src="05_Explicit_Dynamics/01_High-Speed_Impact/Initial_Velocity.png"
        alt="Initial velocity conditions for high-speed impact"
@@ -338,8 +365,13 @@ Each project folder contains:
 <p align="center">
   <em>Transient deformation and von Mises stress evolution under high strain-rate impact loading.</em>
 </p>
+
+
 ---
+
+
 ### 5B Drop Test
+
 
 <p align="center">
   <img src="05_Explicit_Dynamics/02_Drop_Test/Geomtery.png"
