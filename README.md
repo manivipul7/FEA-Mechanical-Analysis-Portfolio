@@ -121,6 +121,7 @@ Each project folder contains:
   <em>Lifting fork under static and transient loading: principal stresses and directional deformations.</em>
 </p>
 
+---
 
 ### 02 Modal and Vibrational Analysis
 
@@ -191,9 +192,197 @@ Each project folder contains:
 <p align="center">
   <em>First six mode shapes of a two-story building model, illustrating floor sway, torsion, and higher-order modes.</em>
 </p>
+---
+### 03 Transient Dynamics and Harmonic Response
+<p align="center">
+  <img src="03_Transient Dynamics and Harmonic Response/02_Disk_and_Block/Total_Deformation.gif"
+       alt="Total deformation of disk and block assembly in transient dynamics"
+       width="80%">
+</p>
+
+<p align="center">
+  <em>Time-dependent total deformation of the disk–block system under dynamic loading.</em>
+</p>
+---
+### 04 Nonlinear Analysis – Geometric / Contact Nonlinearity
+
+### 4A Translational Joint
+
+<p align="center">
+  <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/01_Translational_Joint/Geometry.png"
+       alt="Geometry of translational joint model"
+       width="45%">
+  <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/01_Translational_Joint/Total_Deformation.gif"
+       alt="Total deformation of translational joint with contact nonlinearity"
+       width="45%">
+</p>
+
+<p align="center">
+  <em>Translational joint model: contact-driven nonlinear stiffness and resulting deformation under load.</em>
+</p>
+---
+### 4B Microgripper
+
+<p align="center">
+  <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/02_Microgripper/Problem Statement.png"
+       alt="Problem statement and setup for microgripper"
+       width="45%">
+  <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/02_Microgripper/Total_Deformation.gif"
+       alt="Total deformation of microgripper under actuation"
+       width="45%">
+</p>
+
+<p align="center">
+  <em>Microgripper case: geometric and contact nonlinearity driving large, localized deformations at the gripper tips.</em>
+</p>
+---
+### 4C Snap Fit
+
+<p align="center">
+  <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/03_Snap_Fit/Assembly_1.png"
+       alt="Snap-fit assembly geometry"
+       width="30%">
+  <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/03_Snap_Fit/Mesh.png"
+       alt="Finite element mesh for snap-fit assembly"
+       width="30%">
+  <img src="04_Nonlinear_Analysis/Geometric_or_contact_nonlinearity/03_Snap_Fit/Total_Deformation_gif.gif"
+       alt="Total deformation during snap-fit engagement"
+       width="30%">
+</p>
+
+<p align="center">
+  <em>Snap-fit assembly: from CAD geometry and meshing to highly nonlinear engagement and release deformation.</em>
+</p>
+---
+### 04 Nonlinear Analysis – Material Nonlinearity
+
+### 4D Planar Seal
+
+<p align="center">
+  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Geometry.png"
+       alt="Planar seal geometry"
+       width="45%">
+  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Displacement.png"
+       alt="Planar seal displacement field"
+       width="45%">
+</p>
+
+<p align="center">
+  <em>Planar seal model and deformed configuration under compression.</em>
+</p>
+
+<p align="center">
+  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Max_Principal_Stress_gif.gif"
+       alt="Maximum principal stress in planar seal"
+       width="45%">
+  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Min_Principal_Stress_gif.gif"
+       alt="Minimum principal stress in planar seal"
+       width="45%">
+</p>
+
+<p align="center">
+  <em>Evolution of maximum and minimum principal stresses in the hyperelastic seal.</em>
+</p>
+
+<p align="center">
+  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Max_Principal_Elastic_Strain_gif.gif"
+       alt="Maximum principal elastic strain in planar seal"
+       width="45%">
+  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Min_Principal_Elastic_Strain_gif.gif"
+       alt="Minimum principal elastic strain in planar seal"
+       width="45%">
+</p>
+
+<p align="center">
+  <em>Maximum and minimum principal elastic strain fields highlighting highly strained regions in the seal.</em>
+</p>
+
+<p align="center">
+  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Shear_Stress_gif.gif"
+       alt="Shear stress distribution in planar seal"
+       width="45%">
+  <img src="04_Nonlinear_Analysis/Material_nonlinearity/Planar Seal/Shear_Elastic_Strain_gif.gif"
+       alt="Shear elastic strain distribution in planar seal"
+       width="45%">
+</p>
+
+<p align="center">
+  <em>Shear stress and shear elastic strain response of the seal under nonlinear material behavior.</em>
+</p>
+---
+### 05 Explicit Dynamics
+
+### 5A High-Speed Impact
+<p align="center">
+  <img src="05_Explicit_Dynamics/01_High-Speed_Impact/Initial_Velocity.png"
+       alt="Initial velocity conditions for high-speed impact"
+       width="45%">
+  <img src="05_Explicit_Dynamics/01_High-Speed_Impact/Mesh.png"
+       alt="Finite element mesh used for high-speed impact simulation"
+       width="45%">
+</p>
+
+<p align="center">
+  <em>High-speed impact setup: initial velocity definition and refined mesh in the impact region.</em>
+</p>
+
+<p align="center">
+  <img src="05_Explicit_Dynamics/01_High-Speed_Impact/Total_Deformation_gif.gif"
+       alt="Total deformation during high-speed impact"
+       width="45%">
+  <img src="05_Explicit_Dynamics/01_High-Speed_Impact/Equivalent_Stress_gif.gif"
+       alt="Equivalent stress during high-speed impact"
+       width="45%">
+</p>
+
+<p align="center">
+  <em>Transient deformation and von Mises stress evolution under high strain-rate impact loading.</em>
+</p>
+---
+### 5B Drop Test
+
+<p align="center">
+  <img src="05_Explicit_Dynamics/02_Drop_Test/Geomtery.png"
+       alt="Drop test geometry"
+       width="45%">
+  <img src="05_Explicit_Dynamics/02_Drop_Test/Mesh.png"
+       alt="Finite element mesh for drop test"
+       width="45%">
+</p>
+
+<p align="center">
+  <em>Drop test specimen geometry and meshing strategy.</em>
+</p>
+
+<p align="center">
+  <img src="05_Explicit_Dynamics/02_Drop_Test/Boun_Cond_1.png"
+       alt="First boundary condition view for drop test"
+       width="45%">
+  <img src="05_Explicit_Dynamics/02_Drop_Test/Boun_Cond_2.png"
+       alt="Second boundary condition view for drop test"
+       width="45%">
+</p>
+
+<p align="center">
+  <em>Boundary condition definitions capturing impact surface and constraints.</em>
+</p>
+
+<p align="center">
+  <img src="05_Explicit_Dynamics/02_Drop_Test/Total_Deformation_gif.gif"
+       alt="Total deformation during drop test"
+       width="45%">
+  <img src="05_Explicit_Dynamics/02_Drop_Test/Equivalent_Stress_2_gif.gif"
+       alt="Equivalent stress during drop test impact"
+       width="45%">
+</p>
+
+<p align="center">
+  <em>Explicit dynamic response of the component under drop impact: deformation and stress propagation.</em>
+</p>
 
 
 
+---
 Each leaf folder contains:
 
 - `images/` with key plots and contour screenshots (`.png`)  
