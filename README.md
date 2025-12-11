@@ -18,27 +18,6 @@ This repository showcases practical FEA experience across:
 
 ## 2. Repository Structure
 
-- `01_Static_Structural_Projects/`
-  - `Pneumatic_Fingers/`
-  - `Spur_Gear/`
-  - `Pressure_Cylinder/`
-  - `Lifting_Fork/`
-- `02_Modal_and_Vibrational_Analysis/`
-  - `Gearbox/`
-  - `Two-Story_Building/`
-- `03_Transient_Dynamics_and_Harmonic_Response/`
-  - `Two_Story_Building_Cont/`
-  - `Disk_and_Block/`
-- `04_Nonlinear_Analysis/`
-  - `Geometric_or_contact_nonlinearity/`
-    - `Translational_Joint/`
-    - `Microgripper/`
-    - `Snap_Fit/`
-  - `Material_nonlinearity/`
-    - `Planar_Seal/`
-- `05_Explicit_Dynamics/`
-  - `High-Speed_Impact/`
-  - `Drop_Test/`
 
 ### 01 Static Structural Projects
 
